@@ -31,8 +31,10 @@ class ChildMI(Parent):
     "This is the ChildMI, this inherits SuperParent and Parent"
     
     def __init__(self, superparentVar, parentVar):
-        SuperParent.__init__(self, superparentVar)  # Initialize SuperParent using its constructor
-        Parent.__init__(self, parentVar)  # Initialize Parent using its constructor
+        # Initialize SuperParent using its constructor
+        SuperParent.__init__(self, superparentVar)
+        # Initialize Parent using its constructor
+        Parent.__init__(self, parentVar)
     
     def ChildMIFunction(self):
         print("This is a message from the ChildMI.ChildMIFunction")
