@@ -201,3 +201,18 @@
         * Import and Instantiate OOP Code File
         * Functional Programming (Pros - Cons)
         * Object-Oriented Programming (Pros - Cons)
+* ### Python Modules
+    * ### [Modules](./python-modules/python-modules/python_modules.md)
+        * Creating a Module
+        * Using a Module
+        * Importing Module Content
+        * Aliasing Modules
+        * Standard Library Modules
+        * Packages
+        * Benefits of Using Modules
+    * ### [Custom Module Folder](./python-modules/python-custom-module-folder/python_custom_module_folder.md)
+        * Creating Custom Module Folder
+        * Module Executable and Import
+        * Custom Module Folder Executable and Import
+        * Accessing Module from a Path
+* ### Python Libraries
