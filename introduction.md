@@ -1,12 +1,14 @@
 ![Python Tinitiate Image](python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](./README.md)
 
-# Python Programming
+##### [Back To Contents](./README.md)
+
+# Introduction To Python
 Python is a great choice for beginners due to its simplicity and readability. In this tutorial, we'll cover the basics of Python programming and gradually introduce more advanced concepts.
 
-## What is Python?
+## What Is Python?
 * Python is a high-level, interpreted programming language known for its simplicity and readability.
 * It was created by Guido van Rossum and first released in 1991.
 * Python is widely used in various fields such as web development, data science, artificial intelligence, scientific computing, and more.
@@ -24,14 +26,14 @@ To start programming in Python, you'll need to set up your development environme
 
 2. **Text Editor or IDE**: Choose a text editor or integrated development environment (IDE) for writing Python code. Some popular options include Visual Studio Code, PyCharm, Atom, and Sublime Text.
 3. **Hello, World!**: Let's write your first Python program. Open your text editor or IDE, create a new file, and type the following code:
-    ```python
-    print("Hello, World!")
-    ```
+```python
+print("Hello, World!")
+```
 4. **Run the Program**: Save the file with a `.py` extension, such as `hello.py`, and run it using the Python interpreter. You can do this by opening a terminal or command prompt, navigating to the directory containing your file, and running:
-    ```
-    python hello.py
-    ```
-    You should see `Hello, World!` printed to the console.
+```
+python hello.py
+```
+You should see `Hello, World!` printed to the console.
 
 ## Core Topics
 - **Basic Syntax**: Variables, data types, operators, and basic input/output.
@@ -45,4 +47,7 @@ To start programming in Python, you'll need to set up your development environme
 - **Object-Oriented Programming (OOP)**: Classes, objects, inheritance, and polymorphism.
 - **Libraries**: Working with libraries in python.
 
-##### [Back To Context](./README.md)
+##### [Back To Contents](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

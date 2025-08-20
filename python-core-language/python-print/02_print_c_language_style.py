@@ -1,12 +1,17 @@
-#
-# Printing variables and numerics in C language style in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Print "C language" style
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
 # Numerics
 print('print a double %5.3f' % (1000.23232))
 # OUTPUT: print a double 1000.232
+
 
 
 # Variables

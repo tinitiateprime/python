@@ -1,8 +1,9 @@
 ![Python Tinitiate Image](python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
 
-## Context
+## CONTENTS
 * ### [Introduction](./introduction.md)
 * ### Python Core Language
     * ### [Python Print](./python-core-language/python-print/python_print.md)
@@ -12,11 +13,12 @@
                 * Single-line comments
                 * Multi-line comments (or docstrings)
         * Print statement variations
-            * Basic print variations
+            * Print basic variations
             * Print "C language" style
-            * Print statement using the string.format
+            * Print `string.format`
             * Printing variables and numerics
-            * Print UNICODE and ASCII(raw) strings
+            * Print ASCII and UNICODE strings
+        * Conclusion
     * ### [Python Datatypes](./python-core-language/python-datatypes/python_datatypes.md)
         * Numeric Datatypes
             * Integer
@@ -216,3 +218,7 @@
         * Custom Module Folder Executable and Import
         * Accessing Module from a Path
 * ### Python Libraries
+
+***
+| &copy; TINITIATE.COM |
+|----------------------|
