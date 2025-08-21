@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Object Oriented Programming Vs Functional Programming
 * To understand the difference between functional programming code and Object Oriented programming code, Lets consider a single problem and write code in both functional and Object Oriented.
@@ -158,4 +158,4 @@ print(Obj1.__sizeof__() + Obj2.__sizeof__())
 * In many cases, a hybrid approach that combines elements of both paradigms can provide a balanced solution, leveraging the strengths of each to create robust and maintainable code.
 * Developers should carefully consider the trade-offs and choose the paradigm that aligns best with the goals of their project.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

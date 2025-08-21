@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Iterative Loops In Python
 * Iterative loops in Python allow you to execute a block of code repeatedly until a certain condition is met or until all elements in an iterable have been processed. 
@@ -285,4 +285,4 @@ for index, fruit in enumerate(fruits):
 * Iterative loops are essential programming constructs in Python, allowing you to iterate over data structures, repeat actions, and control the flow of execution based on certain conditions.
 * They provide a powerful mechanism for handling repetitive tasks and processing large amounts of data efficiently.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

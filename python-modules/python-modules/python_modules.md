@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Python Modules
 * Python modules are a fundamental concept in Python programming, enabling you to organize and reuse code efficiently.
@@ -170,4 +170,4 @@ sub_greet("Dave")
 * **Collaboration:** Modules allow multiple developers to work on different parts of a project simultaneously without interfering with each other's code.
 * **Encapsulation:** You can encapsulate related code and hide implementation details, exposing only what's necessary to the user.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

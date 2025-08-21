@@ -1,7 +1,9 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+
+##### [Back To Contents](../../README.md)
 
 # Python Strings
 * Strings in Python are sequences of characters, and they are one of the fundamental data types used to represent and manipulate textual data.
@@ -27,7 +29,7 @@ var_string_4 = '''Welcome to python
 tutorials by tinitiate.com, This is a multi line string
 as you can see using single quotes'''
 
-# print the sthe above strings
+# Print the above strings
 print(var_string_1)
 print(var_string_2)
 print(var_string_3)
@@ -54,11 +56,12 @@ print('Fourth character from the end of variable var_test_string: '
 # OUT oF range indexes
 # When specifing indexes that don't exist is a string, it fails
 var_my_string  = "four"
+# Uncomment the below line to view error
 # print(var_my_string[5]) # this will raise an error
 ```
 
 ## String Slicing
-You can extract a substring(portion of string) from a string using slicing.
+* You can extract a substring(portion of string) from a string using slicing.
 ```python
 var_test_string = "Python is cool"
 # Slicing part of the string using [number:]
@@ -89,7 +92,7 @@ print(full_name)  # Output: John Doe
 
 ## String Methods
 * Python provides many built-in string methods for manipulation and analyzing strings.
-### Case Conversion Methods:
+### Case Conversion Methods
 * `upper()`: Converts a string to uppercase.
 * `lower()`: Converts a string to lowercase.
 * `title()`: Converts a string to title case(Capitalize the first character of each word)
@@ -99,21 +102,21 @@ print(full_name)  # Output: John Doe
 var_string_case_test = "learn PYTHON"
 
 # Uppercase conversion
-print(var_string_case_test.upper()) # OUTPUT:  LEARN PYTHON
+print(var_string_case_test.upper())       # OUTPUT:  LEARN PYTHON
 
 # Lowercase conversion
-print(var_string_case_test.lower()) # OUTPUT:  learn python
+print(var_string_case_test.lower())       # OUTPUT:  learn python
 
 # Title case conversion
-print(var_string_case_test.title()) # OUTPUT:  Learn Python
+print(var_string_case_test.title())       # OUTPUT:  Learn Python
 
 # Swap case conversion
-print(var_string_case_test.swapcase())  # OUTPUT:  LEARN python
+print(var_string_case_test.swapcase())    # OUTPUT:  LEARN python
 
 # Capitalize case conversion
 print(var_string_case_test.capitalize())  # OUTPUT:  Learn python
 ```
-### Checking Methods:
+### Checking Methods
 * `isupper()`: Checks if the string is uppercase and returns `True`, otherwise it returns `False`.
 * `islower()`: Checks if the string is lowercase and returns `True`, otherwise it returns `False`.
 * `isalpha()`: Checks if the string contains only alphabets and returns `True`, otherwise it returns `False`.
@@ -161,10 +164,10 @@ text = "Hello, world!"
 result = text.endswith("lo,", 0, 6)
 print(result)  # Output: True
 ```
-### Stripping Methods:
-`strip()`: Removes leading(starting) and trailing(ending) whitespaces. If specified anything in the paranthesis, it will removes the occurrence(s) of the specified characters.
-`lstrip()`: Removes leading(starting) whitespaces.If specified anything in the paranthesis, it will remove the leading occurrenc(s) of the specified characters.
-`rstrip()`: Removes trailing(ending) whitespaces.If specified anything in the paranthesis, it will remove the trailing occurrenc(s) of the specified characters.
+### Stripping Methods
+* `strip()`: Removes leading(starting) and trailing(ending) whitespaces. If specified anything in the paranthesis, it will removes the occurrence(s) of the specified characters.
+* `lstrip()`: Removes leading(starting) whitespaces.If specified anything in the paranthesis, it will remove the leading occurrenc(s) of the specified characters.
+* `rstrip()`: Removes trailing(ending) whitespaces.If specified anything in the paranthesis, it will remove the trailing occurrenc(s) of the specified characters.
 ```python
 # strip()
 # Removes the whitespaces starting and ending of the string
@@ -181,7 +184,8 @@ print ('This is a test'.strip('T'))
 
 # Removes the occurrence of 'is'
 print ('sssThis is a testsss'.strip('s'))
-# OUTPUT: This  a test
+# OUTPUT: This is a test
+
 
 
 # lstrip()
@@ -199,6 +203,7 @@ print ('This is a test'.lstrip('This'))
 # OUTPUT: is a test  
 
 
+
 # rstrip()
 text = "    Hello, world!    "
 # Remove trailing whitespace
@@ -213,9 +218,9 @@ print(stripped_text)  # Output: "Hello, world!"
 print ('This is a test'.rstrip(' test'))
 # OUTPUT: This is a
 ```
-### Justify And Padding Methods:
-* `ljust(length, char)`: Justifies a string by aligning the string to the left and padding the string to the length mentionedwith the specified characters.
-* `center(length, char)`: Justifies a string by aligning the string to the center and padding the string to the lengthmentioned with the specified characters.
+### Justify and Padding Methods:
+* `ljust(length, char)`: Justifies a string by aligning the string to the left and padding the string to the length mentioned with the specified characters.
+* `center(length, char)`: Justifies a string by aligning the string to the center and padding the string to the length mentioned with the specified characters.
 * `rjust(length, char)`: Justifies a string by aligning the string to the right and padding the string to the length mentioned with the specified characters.
 ```python
 # ljust(lenght, char)
@@ -228,6 +233,7 @@ print(l_padded_text)  # Output: Hello*****
 print(l_padded_text.ljust(15,' '))
 
 
+
 # center(length, char)
 print ('test'.center(10,'+'))
 # OUTPUT: +++test+++
@@ -236,6 +242,7 @@ text = "Hello"
 centered_text = text.center(11, '*')
 print(centered_text)  # Output: ***Hello***
 print(centered_text.center(15,' '))
+
 
 
 # rjust(length, char)
@@ -272,6 +279,7 @@ print(index3)  # Output: 6
 # print(index4)  # Output: ValueError
 
 
+
 # rindex()
 sentence = "This is a sample sentence."
 index1 = sentence.rindex("is")
@@ -290,6 +298,7 @@ print(index3)  # Output: 5
 # print(index4)  # Output: ValueError
 
 
+
 # find()
 sentence = "This is a sample sentence."
 index1 = sentence.find("sample")
@@ -298,6 +307,7 @@ print(index1)  # Output: 10
 # Substring not found
 index2 = sentence.find("example")
 print(index2)  # Output: -1
+
 
 
 # rfind()
@@ -359,13 +369,16 @@ print("My name is %s and I am %d years old." % (name, age))
 ```python
 my_string = "Python"
 
-print("P" in my_string)    # Output: True
-print(my_string + " 3.8")   # Output: Python 3.8
-print(my_string * 3)        # Output: PythonPythonPython
+print("P" in my_string)      # Output: True
+print(my_string + " 3.8")    # Output: Python 3.8
+print(my_string * 3)         # Output: PythonPythonPython
 print(my_string == "Python") # Output: True
 ```
 
 ## String Immutability
 Strings in Python are immutable, meaning that once a string is created, its contents cannot be changed. If you want to modify a string, you'll need to create a new string with the desired changes.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Python Functions
 * Functions in Python are blocks of reusable code that perform a specific task. Thus, Function is a code block, that can be called once or multiple times.
@@ -734,4 +734,4 @@ print(sorted_points)
 * Functions are essential building blocks in Python programming, allowing you to write modular, reusable code and enhance the structure, readability, and maintainability of your programs.
 * They allow you to encapsulate logic and create code that's easier to understand and maintain.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

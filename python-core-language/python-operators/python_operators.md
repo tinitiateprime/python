@@ -1,15 +1,16 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+
+##### [Back To Contents](../../README.md)
 
 # Python Operators
 * Operators in Python are symbols that are used to perform operations on operands.
 * Operands can be variables, constants, or expressions.
-
-## Basic Operators In Python
 * Python supports various types of operators.
-### Arithmetic Operators
+
+## Arithmetic Operators
 * Arithmetic operators are used to perform mathematical operations.
     * Addition: `+`
     * Subtraction: `-`
@@ -42,7 +43,8 @@ print(a % b)  # Output: 1
 # Power/Exponentiation
 print(a ** b) # Output: 1000
 ```
-### Comparison Operators
+
+## Comparison Operators
 * Comparison operators are used to compare values. They return either `True` or `False`.
     * Equal to: `==`
     * Not equal to: `!=`
@@ -71,7 +73,8 @@ print(x >= y)  # Output: True
 # Less than or equal to
 print(x <= y)  # Output: False
 ```
-### Assignment Operators
+
+## Assignment Operators
 * Assignment operators are used to assign values to variables.
     * Assignment: `=`
     * Addition assignment: `+=`
@@ -114,7 +117,8 @@ print(a)  # Output: 0.0
 a **= 3   # Equivalent to a = a ** 3
 print(a)  # Output: 0.0 (0 to the power of 3 is still 0)
 ```
-### Logical Operators
+
+## Logical Operators
 * Logical operators are used to combine conditional statements.
     * Logical AND: `and`
     * Logical OR: `or`
@@ -133,7 +137,8 @@ print(x < y or y > z)   # Output: True
 # Logical NOT
 print(not(x < y))       # Output: False
 ```
-### Bitwise Operators
+
+## Bitwise Operators
 * Bitwise operators perform operations on binary representations of integers.
     * Bitwise AND: `&`
     * Bitwise OR: `|`
@@ -163,7 +168,8 @@ print(a << 1)  # Output: 20
 # Right shift
 print(a >> 1)  # Output: 5
 ```
-### Identity Operators
+
+## Identity Operators
 * Identity operators are used to compare the memory locations of two objects.
     * `is`: Returns `True` if both variables point to the same object.
     * `is not`: Returns `True` if both variables point to different objects.
@@ -180,7 +186,8 @@ print(x is z)     # Output: True (Same object, assigned to z)
 # is not
 print(x is not y) # Output: True
 ```
-### Membership Operators
+
+## Membership Operators
 * Membership operators are used to test if a sequence is present in an object.
     * `in`: Returns True if a sequence with the specified value is present in the object.
     * `not in`: Returns True if a sequence with the specified value is not present in the object.
@@ -188,10 +195,13 @@ print(x is not y) # Output: True
 my_list = [1, 2, 3, 4, 5]
 
 # in
-print(3 in my_list)   # Output: True
+print(3 in my_list)     # Output: True
 
 # not in
 print(6 not in my_list) # Output: True
 ```
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

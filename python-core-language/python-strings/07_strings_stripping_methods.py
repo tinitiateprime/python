@@ -1,6 +1,10 @@
-#
-# Stripping Methods in strings in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Stripping Methods
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -19,7 +23,8 @@ print ('This is a test'.strip('T'))
 
 # Removes the occurrence of 'is'
 print ('sssThis is a testsss'.strip('s'))
-# OUTPUT: This  a test
+# OUTPUT: This is a test
+
 
 
 # lstrip()
@@ -35,6 +40,7 @@ print(stripped_text)  # Output: "Hello, world!"
 
 print ('This is a test'.lstrip('This'))
 # OUTPUT: is a test  
+
 
 
 # rstrip()

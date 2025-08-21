@@ -1,16 +1,20 @@
-#
-# Accessing Elements in Dictionaries in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Accessing Elements in Dictionaries
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
 my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
 
 print(my_dict['name'])    
-# Output: John
+# OUTPUT: John
 
 print(my_dict['age'])     
-# Output: 30
+# OUTPUT: 30
 
 print(my_dict.get('gender'))  
-# Output: Male
+# OUTPUT: Male

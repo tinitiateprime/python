@@ -1,14 +1,16 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+
+##### [Back To Contents](../../README.md)
 
 # Python Datatypes
 * Python provides several built-in data types to work with different kinds of data.
 * A data type is a classification that specifies the type of data a variable can hold and the operations that can be performed on it.
 
 ## Built-in Python DataTypes
-Here's a list of datatypes along with examples:
+Here's a list of datatypes in python along with examples:
 
 ### Numeric Types
 - **int**: Integers are whole numbers, positive or negative, without any decimal point.
@@ -83,6 +85,22 @@ print("unique_numbers:", unique_numbers)
 print("frozen_set:", frozen_set)
 print("is_active:", is_active)
 print("result:", result)
+
+# OUTPUT:
+# x: 5
+# y: 3.14
+# z: (2+3j)
+# name: Alice
+# numbers: [1, 2, 3]
+# coordinates: (10, 20)
+# person: {'name': 'Bob', 'age': 25}
+# unique_numbers: {1, 2, 3}
+# frozen_set: frozenset({4, 5, 6})
+# is_active: True
+# result: None
 ```
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

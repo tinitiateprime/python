@@ -1,6 +1,10 @@
-#
-# Use Cases of Tuples in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Tuples Use Cases
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

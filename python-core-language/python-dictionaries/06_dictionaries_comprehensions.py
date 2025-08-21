@@ -1,0 +1,14 @@
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Dictionary Comprehensions
+#  Author       : Team Tinitiate
+# ==============================================================================
+
+
+
+numbers = {1, 2, 3, 4, 5}
+numbers_dict = {x: x ** 2 for x in numbers}  
+print(numbers_dict)
+# Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}

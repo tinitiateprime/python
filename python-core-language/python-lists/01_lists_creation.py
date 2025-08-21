@@ -1,6 +1,10 @@
-#
-# Creating Lists in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Creating Lists
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -19,7 +23,7 @@ CompoundList = [1, "two", 3.0, True]
 
 # Printing a List
 print(MyNumbersList) # Output: [1, 100, 9, 99]
-print(MyStringList) # Output: ["A", 'b', 'Hello', "This"]
-print(fruits) # Output: ['apple', 'banana', 'orange']
-print(nested_list) # Output: [[1, 2], [3, 4], [5, 6]]
+print(MyStringList)  # Output: ["A", 'b', 'Hello', "This"]
+print(fruits)        # Output: ['apple', 'banana', 'orange']
+print(nested_list)   # Output: [[1, 2], [3, 4], [5, 6]]
 print (CompoundList) # Output: [1, 'two', 3.0, True]

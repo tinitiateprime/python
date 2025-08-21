@@ -1,7 +1,9 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+
+##### [Back To Contents](../../README.md)
 
 # Python Dictionaries
 * Dictionaries in Python are unordered collections of key-value pairs.
@@ -14,112 +16,34 @@
 ```python
 eats = {'APPLE':'FRUIT', 'POTATO':'ROOT', 'OKRA':'VEGETABLE'}
 print(eats) 
-# Output: {'APPLE': 'FRUIT', 'POTATO': 'ROOT', 'OKRA': 'VEGETABLE'}
+# OUTPUT: {'APPLE': 'FRUIT', 'POTATO': 'ROOT', 'OKRA': 'VEGETABLE'}
 
 my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
 print(my_dict)
-# Output: {'name': 'John', 'age': 30, 'gender': 'Male'}
+# OUTPUT: {'name': 'John', 'age': 30, 'gender': 'Male'}
 
 # Empty Dictionary
 dict0 = {}
 print(dict0)
-# Output: {}
+# OUTPUT: {}
 ```
 
-## Accessing Elements
+## Accessing Elements in Dictionaries
 * Individual elements in a dictionary can be accessed using keys.
 ```python
 my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
 
 print(my_dict['name'])    
-# Output: John
+# OUTPUT: John
 
 print(my_dict['age'])     
-# Output: 30
+# OUTPUT: 30
 
 print(my_dict.get('gender'))  
-# Output: Male
+# OUTPUT: Male
 ```
 
-## Modifying Dictionaries
-* You can modify elements in a dictionary by assigning new values to existing keys or adding new key-value pairs.
-* You can remove a key-value pair from a dictionary, you can use the `del` statement.
-* Use `key()` to get all the keys in dictionary.
-* Use `clear()` to remove everything in dictionary.
-```python
-my_dict = {'name': 'John', 'age': 30}
-print(my_dict)
-# Output: {'name': 'John', 'age': 30}
-
-# Modifying existing value
-my_dict['age'] = 35
-print(my_dict)
-# Output: {'name': 'John', 'age': 35}
-
-# Adding new key-value pair
-my_dict['gender'] = 'Male'
-print(my_dict)  
-# Output: {'name': 'John', 'age': 35, 'gender': 'Male'}
-
-# Remove the key gender and its value
-del my_dict['gender'] 
-print(my_dict)
-# Output: {'name': 'John', 'age': 35}
-
-# Remove everything in dictionary
-my_dict.clear() 
-print(my_dict)
-# Output: {}
-```
-
-## Dictionary Methods
-* Python provides many built-in methods for dictionary manipulation, such as keys(), values(), items(), pop(), popitem().
-my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
-    * `keys()`: Returns a view object containing the keys of the dictionary
-    * `values()`: Returns a view object containing the values of the dictionary
-    * `items()`: Returns a view object containing the key-value pairs of the dictionary
-    * `pop()`: Removes the item with the specified key and returns its value
-    * `popitem()`: Removes and returns the last inserted key-value pair
-```python
-my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
-
-# keys()
-print(my_dict.keys())  
-# Output: dict_keys(['name', 'age', 'gender'])
-
-# values()
-print(my_dict.values())  
-# Output: dict_values(['John', 30, 'Male'])
-
-# items()
-print(my_dict.items())   
-# Output: dict_items([('name', 'John'), ('age', 30), ('gender', 'Male')])
-
-# pop()
-value = my_dict.pop('age')
-print(value)  
-# Output: 30
-print(my_dict)  
-# Output: {'name': 'John', 'gender': 'Male'}
-
-# popitem()
-key, value = my_dict.popitem()
-print(key, value)  
-# Output: gender Male
-print(my_dict)     
-# Output: {'name': 'John'}
-```
-
-## Dictionary Comprehensions
-* Dictionary comprehensions provide a concise way to create dictionaries based on existing dictionaries.
-```python
-numbers = {1, 2, 3, 4, 5}
-numbers_dict = {x: x ** 2 for x in numbers}  
-#OUTPUT: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
-print(numbers_dict)
-```
-
-## Nested Dictionaries
+## Accessing Nested Dictionary Elements
 * Dictionaries can contain other dictionaries as values, enabling the creation of nested data structures.
 * You can use indexing to access elements in list of dictionaries.
 ```python
@@ -127,16 +51,17 @@ print(numbers_dict)
 my_dict = {'person': {'name': 'John', 'age': 30}}
 
 print(my_dict)
-# Output: {'person': {'name': 'John', 'age': 30}}
+# OUTPUT: {'person': {'name': 'John', 'age': 30}}
 
 print(my_dict['person'])
-# Output: {'name': 'John', 'age': 30}
+# OUTPUT: {'name': 'John', 'age': 30}
 
 print(my_dict['person']['name'])  
-# Output: John
+# OUTPUT: John
 
 print(my_dict['person']['age'])   
-# Output: 30
+# OUTPUT: 30
+
 
 
 # Nested dict variation 2
@@ -147,11 +72,101 @@ list_dict = [{'EmpID':1, 'EmpName':'Venkat'},
 # Print Name of EmpID: 3 using indexing
 # EmpID: 3 is 3rd element, whose index is "2"
 print(list_dict[2]['EmpName'])
-# Output: Taran
+# OUTPUT: Taran
+```
+
+## Modifying Dictionaries
+* You can modify elements in a dictionary by assigning new values to existing keys or adding new key-value pairs.
+* You can remove a key-value pair from a dictionary, you can use the `del` statement.
+* Use `key()` to get all the keys in dictionary.
+* Use `clear()` to remove everything in dictionary.
+```python
+my_dict = {'name': 'John', 'age': 30}
+print(my_dict)
+# OUTPUT: {'name': 'John', 'age': 30}
+
+# Modifying existing value
+my_dict['age'] = 35
+print(my_dict)
+# OUTPUT: {'name': 'John', 'age': 35}
+
+# Adding new key-value pair
+my_dict['gender'] = 'Male'
+print(my_dict)  
+# OUTPUT: {'name': 'John', 'age': 35, 'gender': 'Male'}
+
+# Remove the key gender and its value
+del my_dict['gender'] 
+print(my_dict)
+# OUTPUT: {'name': 'John', 'age': 35}
+
+# Remove everything in dictionary
+my_dict.clear() 
+print(my_dict)
+# OUTPUT: {}
+```
+
+## Dictionary Methods
+* Python provides many built-in methods for dictionary manipulation, such as 
+    * `keys()`: Returns a view object containing the keys of the dictionary
+    * `values()`: Returns a view object containing the values of the dictionary
+    * `items()`: Returns a view object containing the key-value pairs of the dictionary
+    * `pop()`: Removes the item with the specified key and returns its value
+    * `popitem()`: Removes and returns the last inserted key-value pair
+```python
+my_dict = {'name': 'John', 'age': 30, 'gender': 'Male'}
+
+
+
+# keys()
+print(my_dict.keys())  
+# OUTPUT: dict_keys(['name', 'age', 'gender'])
+
+
+
+# values()
+print(my_dict.values())  
+# OUTPUT: dict_values(['John', 30, 'Male'])
+
+
+
+# items()
+print(my_dict.items())   
+# OUTPUT: dict_items([('name', 'John'), ('age', 30), ('gender', 'Male')])
+
+
+
+# pop()
+value = my_dict.pop('age')
+print(value)  
+# OUTPUT: 30
+print(my_dict)  
+# OUTPUT: {'name': 'John', 'gender': 'Male'}
+
+
+
+# popitem()
+key, value = my_dict.popitem()
+print(key, value)  
+# OUTPUT: gender Male
+print(my_dict)     
+# OUTPUT: {'name': 'John'}
+```
+
+## Dictionary Comprehensions
+* Dictionary comprehensions provide a concise way to create dictionaries based on existing dictionaries.
+```python
+numbers = {1, 2, 3, 4, 5}
+numbers_dict = {x: x ** 2 for x in numbers}  
+# OUTPUT: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+print(numbers_dict)
 ```
 
 ## Conclusion
 * Dictionaries provide a flexible and efficient way to store and manipulate data using key-value pairs.
 * Note that dictionaries are unordered, which means the order of key-value pairs might not be preserved. Starting from Python 3.7, the insertion order is preserved by default.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

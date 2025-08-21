@@ -1,6 +1,10 @@
-#
-# Simple variable creation in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Simple Creation
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -13,8 +17,7 @@ print("variable1 : ", variable1)
 print("variable2 : ", variable2)
 print("variable3 : ", variable3)
 
-
-# OUTPUT
+# OUTPUT:
 # variable1 :  1
 # variable2 :  test
 # variable3 :  100.4

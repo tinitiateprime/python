@@ -20,26 +20,29 @@
             * Print ASCII and UNICODE strings
         * Conclusion
     * ### [Python Datatypes](./python-core-language/python-datatypes/python_datatypes.md)
-        * Numeric Datatypes
-            * Integer
-            * Float
-            * Complex
-        * Sequence Datatypes
-            * String
-            * List
-            * Tuple
-        * Mapping Type/Dictionaries
-            * Dictionary
-        * Set Datatypes
-            * Set
-            * Frozen Set
-        * Boolean Datatype
-        * None Datatype
+        * Built-in Python DataTypes
+            * Numeric Types
+                * Integer
+                * Float
+                * Complex
+            * Sequence Types
+                * String
+                * List
+                * Tuple
+            * Mapping Type/Dictionaries
+                * Dictionary
+            * Set Types
+                * Set
+                * Frozen Set
+            * Boolean Type
+                * Boolean
+            * None Type
+                * None
     * ### [Python Variables](./python-core-language/python-variables/python_variables.md)
         * Variable Declaration and Assignment
-            * Simple Variable Creation
-            * Reassigning a variable and Deleting a variable
-            * Variable syntax variations
+            * Simple Creation
+            * Reassign and Delete
+            * Syntax Variations
         * Variable Naming Rules
     * ### [Python Operators](./python-core-language/python-operators/python_operators.md)
         * Arithmetic Operators
@@ -51,7 +54,7 @@
         * Membership Operators
     * ### [Python Strings](./python-core-language/python-strings/python_strings.md)
         * Creating Strings
-        * String Indexing/Accessing
+        * String Indexing/Accessing Characters in Strings
         * String Slicing
         * String Concatenation
         * String Methods
@@ -63,24 +66,29 @@
             * Miscellaneous Methods
         *  String Formatting
         * String Operations
+        * String Immutability
     * ### [Python Lists](./python-core-language/python-lists/python_lists.md)
         * Creating Lists
         * Accessing Elements in Lists
+        * Accessing Nested List Elements
         * List Slicing
         * List Operations
         * List Methods
         * Modifying Lists
         * List Comprehensions
+        * Conclusion
     * ### [Python Sets](./python-core-language/python-sets/python_sets.md)
         * Creating Sets
         * Modifying Sets
         * Set Operations
         * Set Comprehensions
         * Set Membership Testing
-        * Frozen Sets
+        * Frozen Sets or Immutable Sets
+        * Conclusion
     * ### [Python Tuples](./python-core-language/python-tuples/python_tuples.md)
         * Creating Tuples
         * Accessing Elements in Tuples
+        * Accessing Nested Tuple Elements
         * Tuples Packing and Unpacking
         * Tuple Methods
         * Tuple Slicing
@@ -88,16 +96,17 @@
         * Tuple Comprehensions
         * Tuple Membership Testing
         * Tuple Immutability
-        * List of Tuples
-        * Use Cases of Tuples
+        * Tuples in Lists
+        * Tuples Use Cases
     * ### [Python Dictionaries](./python-core-language/python-dictionaries/python_dictionaries.md)
         * Creating Dictionaries
         * Accessing Elements in Dictionaries
+        * Accessing Nested Dictionary Elements
         * Modifying Dictionaries
         * Dictionary Methods
         * Dictionary Comprehensions
-        * Nested Dictionaries
-    * ### [Conversions Between List, Tuples and Dictionaries](./python-core-language/conversions-list-tuple-dict/conversions_list_tuple_dict.md)
+        * Conclusion
+    * ### [Conversions Between Lists, Tuples and Dictionaries](./python-core-language/conversions-between-lists-tuples-and-dictionaries/conversions_between_lists_tuples_and_dictionaries.md)
         * List to Tuple
         * List to Dictionary
         * List of Tuples to Dictionary
@@ -109,6 +118,7 @@
         * Dictionary to List of Tuples
         * Dictionary to List of Keys or Values
         * Dictionary to a Tuple of Lists
+        * Conclusion
     * ### [Conditional Decision Making](./python-core-language/conditional-decision-making/conditional_decision_making.md)
         * The if Statement
         * The if-else Statement

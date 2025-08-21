@@ -10,7 +10,7 @@
 * It allows you to display text, variables, and other data in a human-readable format.
 * The `print()` function takes one or more arguments, which are the values you want to display, and it separates them with a space by default.
 
-## Syntax:
+## Syntax
 ```python
 # Prints 'Hello World!' to the console
 print("Hello World!")
@@ -21,7 +21,7 @@ print("Hello World!")
 * In Python, comments are annotations within the code that are ignored by the Python interpreter.
 * They are used to add explanatory notes or documentation to the code for better understanding.
 * Comments help other developers (or even yourself in the future) comprehend the code logic, purpose, and functionality.
-### Types of comments:
+### Types of comments
 * **Single-line comments:** These comments start with the hash character `#` and continue until the end of the line.
 ```python
 # This is a single-line comment

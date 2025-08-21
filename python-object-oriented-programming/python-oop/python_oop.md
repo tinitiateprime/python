@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Python Object-Oriented Programming (OOP)
 * Object-Oriented Programming (OOP) in Python is a programming paradigm that allows you to structure your code in a way that models real-world entities as objects.
@@ -247,4 +247,4 @@ print(animal_sound(cat))
 * By using classes, encapsulation, inheritance, and polymorphism, developers can create modular, reusable, and maintainable software.
 * Understanding these concepts is essential for building robust and scalable applications in Python.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

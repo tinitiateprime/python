@@ -1,6 +1,10 @@
-#
-# String Indexing/Accessing Characters in Strings in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : String Indexing/Accessing Characters in Strings
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -20,4 +24,5 @@ print('Fourth character from the end of variable var_test_string: '
 # OUT oF range indexes
 # When specifing indexes that don't exist is a string, it fails
 var_my_string  = "four"
+# Uncomment the below line to view error
 # print(var_my_string[5]) # this will raise an error

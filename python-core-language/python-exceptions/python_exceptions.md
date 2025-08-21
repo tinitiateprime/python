@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Python Exceptions
 * In Python, exceptions are unexpected or erroneous events(errors) that occur during the execution of a program, leading to abnormal termination of the normal flow of the program's instructions if not handled properly.
@@ -376,4 +376,4 @@ except ti_exception_2:
 * Handling exceptions in Python is a crucial aspect of writing robust and reliable code.
 * By anticipating potential errors and implementing appropriate exception handling mechanisms, developers can gracefully manage unexpected situations and prevent their programs from crashing.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

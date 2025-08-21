@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Object-Oriented Programming (OOP) - Inheritance
 * Inheritance, is the process of accessing members and functions of a class from another class.
@@ -344,4 +344,4 @@ gcObj.ChildMIFunction()
 #         This is a message from the ChildMI.ChildMIFunction
 ```
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

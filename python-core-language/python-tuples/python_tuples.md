@@ -1,7 +1,9 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+
+##### [Back To Contents](../../README.md)
 
 # Python Tuples
 * Tuples in Python are ordered collections of elements, similar to lists, but unlike lists, tuples are immutable, meaning their elements cannot be changed after the tuple is created.
@@ -30,7 +32,7 @@ print(tuple4)   # Output: (1, 22, 333)
 print(tuple5)   # Output: ((1, 2), (11, 22), (111, 222))
 ```
 
-## Accessing Elements
+## Accessing Elements in Tuples
 * Individual elements in a tuple can be accessed using indexing, similar to lists.
 ```python
 my_tuple = (1, 2, 3, 4, 5)
@@ -38,8 +40,11 @@ my_tuple = (1, 2, 3, 4, 5)
 print(my_tuple[0])   # Output: 1
 print(my_tuple[1])   # Output: 2
 print(my_tuple[-1])  # Output: 5 (negative indexing)
+```
 
-# Accessing nested tuple elements
+## Accessing Nested Tuple Elements
+* Nested tuples can be accessed using indexing, similar to lists.
+```python
 my_nested_tuple = ((1, 2), (11, 22), (111, 222))
 #                    0       1          2
 #                  00  01   10  11    20    21
@@ -117,7 +122,7 @@ print(my_tuple[-4:])
 # Output: (4, 5, 6, 7)
 ```
 
-## Update and Delete
+## Tuple Update and Delete
 * Tuples are immutable, so to add or update elements in tuples, create a new tuple with parts of existing ones.
 * Tuples can be deleted using `del` keyword.
 ```python
@@ -177,7 +182,7 @@ my_tuple = (1, 2, 3)
 # my_tuple[0] = 4         # This will raise a TypeError
 ```
 
-## List of Tuples
+## Tuples in Lists
 * We can createa a list with tuples nested.
 * You can use indexing to access elements in list of tuples.
 ```python
@@ -191,7 +196,7 @@ print(list_tup[2])
 print(list_tup[1][1])
 ```
 
-## Use Cases
+## Tuples Use Cases
 * **Tuples are commonly used for:**
     * **Immutable Data:** When you need a collection of data that should not be changed after creation.
     * **Returning Multiple Values:** Functions can return multiple values as a tuple, and these values can be easily unpacked.
@@ -221,4 +226,7 @@ print(coordinates[1, 2])
 * Tuples provide a lightweight and immutable way to store related data, and they are widely used in Python programming.
 * Remember, while tuples are immutable, the objects they contain might be mutable. This means that if a tuple contains mutable objects like lists, those objects can still be modified.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

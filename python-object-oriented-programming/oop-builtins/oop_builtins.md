@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Object-Oriented Programming (OOP) - BuiltIns
 * There are several built-in funtions or attributes (often called "dunder" methods or attributes) that facilitate the OOP process.
@@ -263,4 +263,4 @@ class Dog:
 print(Dog.__doc__)  # Output: This class represents a dog.
 ```
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)

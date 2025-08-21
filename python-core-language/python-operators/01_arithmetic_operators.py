@@ -1,6 +1,10 @@
-#
-# Arithmetic Operators in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Arithmetic Operators
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

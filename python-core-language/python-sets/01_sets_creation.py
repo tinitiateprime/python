@@ -1,6 +1,10 @@
-#
-# Creating Sets in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Creating Sets
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

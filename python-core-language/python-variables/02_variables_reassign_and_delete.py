@@ -1,6 +1,10 @@
-#
-# Reassigning a variable and Deleting a variable in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Reassign and Delete
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,9 +15,14 @@ variable3 = 100.4;      # float value
 # Reassign a value to a variable
 variable1 = 4;          # Integer
 print("variable1 reassigned value: ", variable1)
+# OUTPUT:
+# variable1 reassigned value:  4
+
 # Reassign a variable value to a variable
 variable1 = variable2
 print("variable1 again reassigned value: ", variable1)
+# OUTPUT:
+# variable1 again reassigned value:  test
 
 # Deleting a single or multiple variables by using the del statement.
 del variable1
@@ -22,8 +31,3 @@ del variable1
 # Remove comment symbol (#) and try to print the below statement,
 # it will raise an error
 # print("variable1 reassigned value: ", variable1)
-
-
-# OUTPUT
-# variable1 reassigned value:  4
-# variable1 again reassigned value:  test

@@ -1,6 +1,10 @@
-#
-# Accessing Elements in Tuples in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Accessing Elements in Tuples
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

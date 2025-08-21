@@ -1,6 +1,10 @@
-#
-# Creating strings in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Creating Strings
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -20,7 +24,7 @@ var_string_4 = '''Welcome to python
 tutorials by tinitiate.com, This is a multi line string
 as you can see using single quotes'''
 
-# print the sthe above strings
+# Print the above strings
 print(var_string_1)
 print(var_string_2)
 print(var_string_3)

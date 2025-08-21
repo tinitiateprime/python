@@ -1,6 +1,10 @@
-#
-# Searching Methods in strings in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Searching Methods
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -22,6 +26,7 @@ print(index3)  # Output: 6
 # print(index4)  # Output: ValueError
 
 
+
 # rindex()
 sentence = "This is a sample sentence."
 index1 = sentence.rindex("is")
@@ -40,6 +45,7 @@ print(index3)  # Output: 5
 # print(index4)  # Output: ValueError
 
 
+
 # find()
 sentence = "This is a sample sentence."
 index1 = sentence.find("sample")
@@ -48,6 +54,7 @@ print(index1)  # Output: 10
 # Substring not found
 index2 = sentence.find("example")
 print(index2)  # Output: -1
+
 
 
 # rfind()

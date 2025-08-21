@@ -1,7 +1,7 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
 # Python Tutorial
 &copy; TINITIATE.COM
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
 
 # Conditional Decision-Making In Python
 * Conditional decision-making in Python refers to the process of making choices in your code based on certain conditions.
@@ -167,4 +167,4 @@ else:
 * Conditional decision making in Python allows you to control the flow of your program based on specific conditions. 
 * By using if, elif, else statements, and nested structures, you can create versatile, dynamic and responsive programs that execute different codes as needed.
 
-##### [Back To Context](../../README.md)
+##### [Back To Contents](../../README.md)
