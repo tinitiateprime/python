@@ -1,6 +1,10 @@
-#
-# __base__ and __bases__ Attribute In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __base__ and __bases__ Attribute
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -26,9 +30,7 @@ print(Dog.__base__)
 print(Dog.__bases__)
 print(Bulldog.__base__)
 print(Bulldog.__bases__)
-
-
-# Output: <class '__main__.Animal'>
+# OUTPUT: <class '__main__.Animal'>
 #         (<class '__main__.Animal'>,)
 #         <class '__main__.Animal'>
 #         (<class '__main__.Animal'>, <class '__main__.Bark'>)

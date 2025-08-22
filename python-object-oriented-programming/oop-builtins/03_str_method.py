@@ -1,6 +1,10 @@
-#
-# __str__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __str__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -14,5 +18,4 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(my_dog)  
-
-# Output: Buddy is 5 years old.
+# OUTPUT: Buddy is 5 years old.

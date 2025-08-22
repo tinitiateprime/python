@@ -1,6 +1,10 @@
-#
-# Custom Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Custom Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,4 +15,4 @@ try:
     raise tinitiate_exception
 except tinitiate_exception:
     print("This is a user defined exception !")
-# Output: This is a user defined exception !
+# OUTPUT: This is a user defined exception !

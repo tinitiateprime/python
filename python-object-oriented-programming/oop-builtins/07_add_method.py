@@ -1,6 +1,10 @@
-#
-# __add__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __add__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -16,5 +20,4 @@ p1 = Point(1, 2)
 p2 = Point(3, 4)
 p3 = p1 + p2
 print(p3.x, p3.y)
-
-# Output: 4 6
+# OUTPUT: 4 6

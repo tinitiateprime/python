@@ -1,6 +1,10 @@
-#
-# Handling Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,4 +13,4 @@ try:
     value = my_dict["c"]
 except KeyError:
     print("Error: Key not found")
-# Output: Error: Key not found
+# OUTPUT: Error: Key not found

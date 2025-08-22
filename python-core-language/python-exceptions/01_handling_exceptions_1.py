@@ -1,6 +1,10 @@
-#
-# Handling Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -10,4 +14,4 @@ try:
 except ZeroDivisionError:
     # Code to handle the exception
     print("Error: Division by zero")
-# Output: Error: Division by zero
+# OUTPUT: Error: Division by zero

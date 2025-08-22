@@ -1,6 +1,10 @@
-#
-# __len__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __len__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -13,5 +17,4 @@ class MyList:
 
 my_list = MyList([1, 2, 3, 4, 5])
 print(len(my_list))
-
-# Output: 5
+# OUTPUT: 5

@@ -1,6 +1,10 @@
-#
-# Inheritance Overriding In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Inheritance Overriding
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -27,6 +31,5 @@ objA.func1()
 # Create a child class object
 objA = xChild()
 objA.func1()    
-
-# Output: This is parent class
+# OUTPUT: This is parent class
 #         This is child class

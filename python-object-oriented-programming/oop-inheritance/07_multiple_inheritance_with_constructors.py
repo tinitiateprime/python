@@ -1,6 +1,10 @@
-#
-# Multiple Inheritance With Constructors In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Multiple Inheritance With Constructors
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -48,8 +52,7 @@ print(gcObj.parent2Var)
 gcObj.Parent1Function()
 gcObj.Parent2Function()
 gcObj.ChildMIFunction()
-
-# Output: Parent1Var Value
+# OUTPUT: Parent1Var Value
 #         Parent2Var Value
 #         This is a message from the Parent_1.Parent1Function
 #         This is a message from the Parent_2.Parent2Function

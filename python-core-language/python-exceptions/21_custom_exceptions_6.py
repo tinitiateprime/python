@@ -1,6 +1,10 @@
-#
-# Custom Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Custom Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -23,4 +27,4 @@ try:
     acc.withdraw(1500)
 except InsufficientFundsError as e:
     print("Error:", e)
-# Output: Error: 
+# OUTPUT: Error: 

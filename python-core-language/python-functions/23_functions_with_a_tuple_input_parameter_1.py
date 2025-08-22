@@ -1,6 +1,10 @@
-#
-# Functions with a TUPLE input parameter in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with a TUPLE input parameter
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -30,7 +34,7 @@ def extract_tuple_into_strings_and_numbers(in_tuple):
 
 # Calling the function 
 print(extract_tuple_into_strings_and_numbers(('1','A', '2', '3','B', 'c')))
-
 # OUTPUT:
 #       ['1', '2', '3']
 #       ['A', 'B', 'c']
+#       None

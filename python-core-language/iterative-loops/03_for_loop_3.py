@@ -1,6 +1,10 @@
-#
-# for Loop in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : `for` Loop
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,7 +13,7 @@ myList = [1, 2, 3, 4, 5]
 for element in myList:
     print(element)  
     # Prints all the elements in new line
-# Output: 1
+# OUTPUT: 1
 #         2
 #         3
 #         4
@@ -20,6 +24,6 @@ print("Sublist :")
 for element in myList[2:4]:
     print(element)  
     # Prints all the elements in new line
-# Output: Sublist :
+# OUTPUT: Sublist :
 #         3
 #         4

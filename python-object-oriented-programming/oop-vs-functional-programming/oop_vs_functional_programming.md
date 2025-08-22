@@ -1,6 +1,8 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
 # Object Oriented Programming Vs Functional Programming
@@ -51,8 +53,7 @@ print(f2.mul1())
 
 # Print the instance size of both instances
 print(f1.__sizeof__() + f2.__sizeof__())
-
-# Output: Function vars:
+# OUTPUT: Function vars:
 #         n1= 100
 #         n2= 200
 #         300
@@ -111,8 +112,7 @@ print(Obj2.mul1())
 
 # Print the object Size of both the objects
 print(Obj1.__sizeof__() + Obj2.__sizeof__())
-
-# Output: Class OOPs vars:
+# OUTPUT: Class OOPs vars:
 #         n1= 100
 #         n2= 200
 #         300
@@ -125,7 +125,7 @@ print(Obj1.__sizeof__() + Obj2.__sizeof__())
 #         32
 ```
 
-## Python: Functional Code vs. Object-Oriented Code - Pros and Cons
+## Functional Code vs. Object-Oriented Code
 * Python supports both functional programming and object-oriented programming paradigms, offering developers the flexibility to choose the approach that best fits their needs.
 * Each paradigm has its own set of pros and cons, and the choice between functional and object-oriented code often depends on the specific requirements of the project and the developer's preferences. 
 
@@ -159,3 +159,6 @@ print(Obj1.__sizeof__() + Obj2.__sizeof__())
 * Developers should carefully consider the trade-offs and choose the paradigm that aligns best with the goals of their project.
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

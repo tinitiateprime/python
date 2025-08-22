@@ -1,6 +1,10 @@
-#
-# Functions with a LIST input parameter in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with a LIST input parameter
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -21,4 +25,4 @@ def process_list(input_list):
 numbers = [1, 2, 3, 4, 5]
 result = process_list(numbers)
 print("Squared numbers:", result)
-# Output: Squared numbers: [1, 4, 9, 16, 25]
+# OUTPUT: Squared numbers: [1, 4, 9, 16, 25]

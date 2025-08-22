@@ -1,6 +1,10 @@
-#
-# Nested if Statements In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Nested `if` Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -17,4 +21,4 @@ else:
         print("Grade is D")
     else:
         print("Grade is F")
-# Output: Grade is B
+# OUTPUT: Grade is B

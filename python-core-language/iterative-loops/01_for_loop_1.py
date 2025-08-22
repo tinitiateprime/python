@@ -1,6 +1,10 @@
-#
-# for Loop in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : `for` Loop
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,6 +13,6 @@ fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
     print(fruit)
-# Output: apple
+# OUTPUT: apple
 #         banana
 #         cherry

@@ -1,6 +1,10 @@
-#
-# Functions Pass By Value in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Arguments Pass By Value
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -18,8 +22,7 @@ print('Before passing by value to function, source_list: ', source_list_2)
 function_pass_by_value(source_list_2)
 
 print('After passing by value to function, source_list: ', source_list_2)
-
-# Output:
+# OUTPUT:
 # Before passing by value to function, source_list:  ['A', 'B', 'C']
 # function_pass_by_value says Input List:  ['A', 'B', 'C']
 # function_pass_by_value says changed List:  [1, 2, 3, 4]

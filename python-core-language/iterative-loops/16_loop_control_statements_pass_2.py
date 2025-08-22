@@ -1,6 +1,10 @@
-#
-# Loop Control Statements in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Loop Control Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -12,5 +16,5 @@ for c in range(3):
         pass
     else:
         print('normal processing')
-# Output: normal processing
+# OUTPUT: normal processing
 #         Do a very important step

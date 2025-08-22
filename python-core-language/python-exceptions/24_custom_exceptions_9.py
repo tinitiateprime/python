@@ -1,6 +1,10 @@
-#
-# Custom Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Custom Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -16,4 +20,4 @@ except ti_exception_1:
 except ti_exception_2:
     # Exception handler for user defined exception: ti_exception_2 
     print("This is a user defined exception 2 Handler !")
-# Output: This is a user defined exception 1 Handler !
+# OUTPUT: This is a user defined exception 1 Handler !

@@ -1,6 +1,8 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
 # Object-Oriented Programming (OOP) - Inheritance
@@ -29,8 +31,7 @@ cObj = ChildClass()
 # Calling the child class and parent class methods from the child object
 cObj.childFunction()
 cObj.parentFunction()
-
-# Output: This is a message from ChildClass.childFunction
+# OUTPUT: This is a message from ChildClass.childFunction
 #         This is a message from ParentClass.parentFunction
 ```
 
@@ -63,8 +64,7 @@ gcObj = Child()
 # Calling methods from different parent classes from child class object
 gcObj.Parent1Function()
 gcObj.Parent2Function()
-
-# Output: This is a message from the Parent_1.Parent1Function
+# OUTPUT: This is a message from the Parent_1.Parent1Function
 #         This is a message from the Parent_2.Parent2Function
 ```
 
@@ -96,8 +96,7 @@ gcObj = Child()
 gcObj.GrandParentFunction()
 gcObj.ParentFunction()
 gcObj.ChildFunction()
-
-# Output: This is a message from the GrandParent.GrandParentFunction
+# OUTPUT: This is a message from the GrandParent.GrandParentFunction
 #         This is a message from the Parent.ParentFunction
 #         This is a message from the Child.ChildFunction
 ```
@@ -130,8 +129,7 @@ objA.func1()
 # Create a child class object
 objA = xChild()
 objA.func1()    
-
-# Output: This is parent class
+# OUTPUT: This is parent class
 #         This is child class
 ```
 
@@ -186,8 +184,7 @@ supObject = Child1()
 # Calling the methods
 supObject.func1()
 supObject.func2()
-
-# Output: This is a message from  Parent1
+# OUTPUT: This is a message from  Parent1
 #         100
 #         999
 #         This is a message from Child1.func1
@@ -229,13 +226,11 @@ print(cObj.parentVar2)
 print(cObj.childVar2)  
 cObj.childFunction()   
 cObj.parentFunction()  
-
-# Output: ParentVar2 Value
+# OUTPUT: ParentVar2 Value
 #         ChildVar2 Value
 #         This is a message from ChildClass.childFunction
 #         This is a message from ParentClass.parentFunction
 ```
-
 * Multiple inheritance with constructors:
 ```python
 # Parent_1 class with constructor
@@ -282,14 +277,12 @@ print(gcObj.parent2Var)
 gcObj.Parent1Function()
 gcObj.Parent2Function()
 gcObj.ChildMIFunction()
-
-# Output: Parent1Var Value
+# OUTPUT: Parent1Var Value
 #         Parent2Var Value
 #         This is a message from the Parent_1.Parent1Function
 #         This is a message from the Parent_2.Parent2Function
 #         This is a message from the ChildMI.ChildMIFunction
 ```
-
 * Multi-level inheritance with constructors:
 ```python
 # SuperParent class with constructor
@@ -336,8 +329,7 @@ print(gcObj.parentVar)
 gcObj.SuperParentFunction()
 gcObj.ParentFunction()
 gcObj.ChildMIFunction()
-
-# Output: SuperParentVar Value
+# OUTPUT: SuperParentVar Value
 #         ParentVar Value
 #         This is a message from the SuperParent.SuperParentFunction
 #         This is a message from the Parent.ParentFunction
@@ -345,3 +337,6 @@ gcObj.ChildMIFunction()
 ```
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

@@ -1,6 +1,10 @@
-#
-# Nested Loops in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Nested Loops
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,7 +13,7 @@ for outer_loop in range(5):
     for inner_loop in range(5):
         print('outer_loop-inner_loop', outer_loop, '-', inner_loop) 
         # Prints all the elements in new line
-# Output: outer_loop-inner_loop 0 - 0
+# OUTPUT: outer_loop-inner_loop 0 - 0
 #         outer_loop-inner_loop 0 - 1
 #         outer_loop-inner_loop 0 - 2
 #         outer_loop-inner_loop 0 - 3

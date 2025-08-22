@@ -1,6 +1,10 @@
-#
-# Functions with empty parameters in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with empty parameters
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -12,7 +16,6 @@ myFunc()
 
 # Calling the function again (Can be called as many times as needed)
 myFunc()
-
-#OUTPUT:
+# OUTPUT:
 #    This message is from the function: myFunc
 #    This message is from the function: myFunc

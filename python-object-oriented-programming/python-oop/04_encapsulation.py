@@ -1,6 +1,10 @@
-#
-# Encapsulation In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Encapsulation
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -22,7 +26,6 @@ print(obj1.get_radius())
 obj1.set_radius(5)
 print(obj1.get_radius())
 obj1.set_radius(0)
-
-# Output: 3
+# OUTPUT: 3
 #         5
 #         Radius must be greater than 0.

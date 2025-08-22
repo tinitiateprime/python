@@ -1,6 +1,10 @@
-#
-# Handling Multiple Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Multiple Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,6 +13,5 @@ try:
     result = 10 / value
 except (ValueError, ZeroDivisionError):
     print("Invalid input or division by zero.")
-
-# Input: 0
-# Output: Invalid input or division by zero.
+# INPUT : 0
+# OUTPUT: Invalid input or division by zero.

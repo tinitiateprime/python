@@ -1,6 +1,10 @@
-#
-# Nested if Statements In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Nested `if` Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -15,4 +19,4 @@ elif A == 200:
     print('A is 200') 
 else:
     print('A value is something else')
-# Output: A is 100
+# OUTPUT: A is 100

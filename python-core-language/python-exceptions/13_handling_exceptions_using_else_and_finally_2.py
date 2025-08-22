@@ -1,6 +1,10 @@
-#
-# Handling Exceptions Using `else` and `finally` in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions Using `else` and `finally`
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -13,11 +17,10 @@ else:
     print(f"Result: {result}")
 finally:
     print("Execution complete.")
-
-# Input : 2
-# Output: Result: 5.0
+# INPUT : 2
+# OUTPUT: Result: 5.0
 #         Execution complete.
 
-# Input : 0
-# Output: Division by zero is not allowed.
+# INPUT : 0
+# OUTPUT: Division by zero is not allowed.
 #         Execution complete.

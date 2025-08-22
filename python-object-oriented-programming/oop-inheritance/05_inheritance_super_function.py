@@ -1,6 +1,10 @@
-#
-# Inheritance Super Function In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Inheritance Super Function
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -51,8 +55,7 @@ supObject = Child1()
 # Calling the methods
 supObject.func1()
 supObject.func2()
-
-# Output: This is a message from  Parent1
+# OUTPUT: This is a message from  Parent1
 #         100
 #         999
 #         This is a message from Child1.func1

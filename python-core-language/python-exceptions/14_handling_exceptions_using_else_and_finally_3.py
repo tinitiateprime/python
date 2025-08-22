@@ -1,6 +1,10 @@
-#
-# Handling Exceptions Using `else` and `finally` in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions Using `else` and `finally`
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -20,8 +24,7 @@ else:
     print("Value at index", x, ":", value)
 finally:
     print("Execution complete")
-
-# Input : 2
-# Output: Result: 5.0
+# INPUT : 2
+# OUTPUT: Result: 5.0
 #         Value at index 2 : 3
 #         Execution complete

@@ -1,6 +1,10 @@
-#
-# Nested Loops in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Nested Loops
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -10,7 +14,7 @@ fruits = ["apple", "banana", "cherry"]
 for ad in adj:
     for fruit in fruits:
         print(ad, fruit)
-# Output: red apple
+# OUTPUT: red apple
 #         red banana
 #         red cherry
 #         big apple

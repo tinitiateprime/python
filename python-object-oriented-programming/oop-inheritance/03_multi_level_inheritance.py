@@ -1,6 +1,10 @@
-#
-# Multi-Level Inheritance In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Multi-Level Inheritance
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -29,7 +33,6 @@ gcObj = Child()
 gcObj.GrandParentFunction()
 gcObj.ParentFunction()
 gcObj.ChildFunction()
-
-# Output: This is a message from the GrandParent.GrandParentFunction
+# OUTPUT: This is a message from the GrandParent.GrandParentFunction
 #         This is a message from the Parent.ParentFunction
 #         This is a message from the Child.ChildFunction

@@ -1,6 +1,10 @@
-#
-# Handling Multiple Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Multiple Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,4 +15,4 @@ try:
     print(my_list[4])  # This will raise an IndexError
 except (KeyError, IndexError):
     print("Error: Key not found or index out of range")
-# Output: Error: Key not found or index out of range
+# OUTPUT: Error: Key not found or index out of range

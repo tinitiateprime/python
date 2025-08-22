@@ -1,6 +1,10 @@
-#
-# for Loop in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : `for` Loop
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -8,7 +12,7 @@
 for character in 'MyString':
     print(character) 
     # Prints all the characters in new line
-# Output: M
+# OUTPUT: M
 #         y
 #         S
 #         t

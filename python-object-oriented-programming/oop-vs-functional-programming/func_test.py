@@ -1,6 +1,10 @@
-#
-# Functional Programming code In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functional Programming code
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

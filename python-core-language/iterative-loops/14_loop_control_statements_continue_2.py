@@ -1,6 +1,10 @@
-#
-# Loop Control Statements in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Loop Control Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,7 +15,7 @@ for c in range(3):
         continue 
     print('Run:', c,'step2')
     print('Run:', c,'step3')
-# Output: Run: 0 step1
+# OUTPUT: Run: 0 step1
 #         Run: 0 step2
 #         Run: 0 step3
 #         Run: 1 step1      # step2 and step3 are skipped for run 1

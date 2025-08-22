@@ -1,6 +1,10 @@
-#
-# Define and call a Function in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Define and call a Function
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -14,5 +18,4 @@ def square(number):
 num = 5
 square_result = square(num)
 print(f"The square of {num} is {square_result}")
-
-# Output: The square of 5 is 25
+# OUTPUT: The square of 5 is 25

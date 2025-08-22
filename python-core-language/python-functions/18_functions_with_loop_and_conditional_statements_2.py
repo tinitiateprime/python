@@ -1,6 +1,10 @@
-#
-# Functions with loop and conditional statements in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with loop and conditional statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -17,7 +21,7 @@ def print_even_numbers(numbers):
 # Call the function
 numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print_even_numbers(numbers_list)
-# Output: 1 is odd
+# OUTPUT: 1 is odd
 #         2 is even
 #         3 is odd
 #         4 is even

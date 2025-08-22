@@ -1,6 +1,10 @@
-#
-# Handling Multiple Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Multiple Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -15,11 +19,10 @@ except ZeroDivisionError:
     print("Error: Division by zero is not allowed")
 except Exception as e:
     print("An error occurred:", e)
+# INPUT 1: a
+# INPUT 2: 1 
+# OUTPUT : Error: Please enter valid integers
 
-# Input 1: a
-# Input 2: 1 
-# Output: Error: Please enter valid integers
-
-# Input 1: 1
-# Input 2: 0
-# Output: Error: Division by zero is not allowed
+# INPUT 1: 1
+# INPUT 2: 0
+# OUTPUT : Error: Division by zero is not allowed

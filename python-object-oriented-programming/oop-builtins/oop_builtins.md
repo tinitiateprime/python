@@ -19,8 +19,7 @@ class Dog:
 # Creating an instance of Dog
 my_dog = Dog("Buddy", 5)
 # Constructor is automatically called implicitly when an object is created
-
-# Output: Dog name is Buddy, age = 5
+# OUTPUT: Dog name is Buddy, age = 5
 ```
 
 ## `__del__` Method
@@ -50,8 +49,7 @@ del obj2
 # Uncomment the below, try to call the call function again, will give error
 # obj1.call()
 # obj2.call()
-
-# Output: Calling function from Object 1
+# OUTPUT: Calling function from Object 1
 #         Calling function from Object 2
 #         Object 1 is being destroyed
 #         Object 2 is being destroyed
@@ -71,8 +69,7 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(my_dog)  
-
-# Output: Buddy is 5 years old.
+# OUTPUT: Buddy is 5 years old.
 ```
 
 ## `__repr__` Method
@@ -89,8 +86,7 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(repr(my_dog))  
-
-# Output: Dog('Buddy', 5)
+# OUTPUT: Dog('Buddy', 5)
 ```
 
 ## `__sizeof__` Method
@@ -107,8 +103,7 @@ obj = MyClass("Hello")
 
 # Get the size of the instance
 print(obj.__sizeof__())
-
-# Output: 16
+# OUTPUT: 16
 # Note: Output will vary based on python version and system architecture
 ```
 
@@ -125,8 +120,7 @@ class MyList:
 
 my_list = MyList([1, 2, 3, 4, 5])
 print(len(my_list))
-
-# Output: 5
+# OUTPUT: 5
 ```
 
 ## `__add__` Method
@@ -144,8 +138,7 @@ p1 = Point(1, 2)
 p2 = Point(3, 4)
 p3 = p1 + p2
 print(p3.x, p3.y)
-
-# Output: 4 6
+# OUTPUT: 4 6
 ```
 
 ## `__getitem__` and `__setitem__` Methods
@@ -162,9 +155,11 @@ class MyList:
         self.items[index] = value
 
 my_list = MyList([1, 2, 3, 4, 5])
-print(my_list[2])    # Output: 3
+print(my_list[2])    
+# OUTPUT: 3
 my_list[2] = 10
-print(my_list[2])    # Output: 10
+print(my_list[2])    
+# OUTPUT: 10
 ```
 
 ## `__iter__` Method
@@ -184,8 +179,7 @@ t_Obj = IterTest(('JAVA','C++', 'SCALA'))
 # The result is a loop of elements, now iterate over the result
 for data in t_Obj:
     print(data)
-
-# Output: JAVA
+# OUTPUT: JAVA
 #         C++
 #         SCALA
 ```
@@ -198,7 +192,8 @@ class Dog:
         self.name = name
 
 my_dog = Dog("Buddy")
-print(my_dog.__class__)  # Output: <class '__main__.Dog'>
+print(my_dog.__class__)  
+# OUTPUT: <class '__main__.Dog'>
 ```
 
 ## `__base__` and `__bases__` Attribute
@@ -228,9 +223,7 @@ print(Dog.__base__)
 print(Dog.__bases__)
 print(Bulldog.__base__)
 print(Bulldog.__bases__)
-
-
-# Output: <class '__main__.Animal'>
+# OUTPUT: <class '__main__.Animal'>
 #         (<class '__main__.Animal'>,)
 #         <class '__main__.Animal'>
 #         (<class '__main__.Animal'>, <class '__main__.Bark'>)
@@ -248,8 +241,7 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(my_dog.__dict__)
-
-# Output: {'name': 'Buddy', 'age': 5}
+# OUTPUT: {'name': 'Buddy', 'age': 5}
 ```
 
 ## `__doc__` Attribute
@@ -260,7 +252,11 @@ class Dog:
     def __init__(self, name):
         self.name = name
 
-print(Dog.__doc__)  # Output: This class represents a dog.
+print(Dog.__doc__)  
+# OUTPUT: This class represents a dog.
 ```
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

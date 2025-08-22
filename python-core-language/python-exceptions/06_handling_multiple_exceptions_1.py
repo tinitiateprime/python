@@ -1,6 +1,10 @@
-#
-# Handling Multiple Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Multiple Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -15,4 +19,4 @@ except ZeroDivisionError:
 except Exception as e:
     # Catch all other exceptions
     print("An error occurred3 :", e)
-# Output: An error occurred 2:
+# OUTPUT: An error occurred 2:

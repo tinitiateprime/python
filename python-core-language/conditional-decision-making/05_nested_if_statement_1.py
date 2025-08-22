@@ -1,6 +1,10 @@
-#
-# Nested if Statements In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Nested `if` Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -12,4 +16,4 @@ if x > 5:
         print("Both x and y are greater than their respective thresholds")
     else:
         print("Only x is greater than its threshold")
-# Output: Both x and y are greater than their respective thresholds
+# OUTPUT: Both x and y are greater than their respective thresholds

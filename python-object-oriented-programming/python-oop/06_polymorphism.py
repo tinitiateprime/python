@@ -1,6 +1,10 @@
-#
-# Polymorphism In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Polymorphism
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -29,6 +33,5 @@ cat = Cat("Whiskers")
 
 print(animal_sound(dog))  
 print(animal_sound(cat))  
-
-# Output: "Woof!"
+# OUTPUT: "Woof!"
 #         "Meow!"

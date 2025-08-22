@@ -1,6 +1,10 @@
-#
-# Inheritance In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Inheritance
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -24,6 +28,5 @@ print(object1.speak())
 
 object2 = Cat("Tom")
 print(object2.speak())
-
-# Output: Woof!
+# OUTPUT: Woof!
 #         Meow!

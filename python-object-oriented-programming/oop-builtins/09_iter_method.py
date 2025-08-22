@@ -1,6 +1,10 @@
-#
-# __iter__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __iter__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -17,7 +21,6 @@ t_Obj = IterTest(('JAVA','C++', 'SCALA'))
 # The result is a loop of elements, now iterate over the result
 for data in t_Obj:
     print(data)
-
-# Output: JAVA
+# OUTPUT: JAVA
 #         C++
 #         SCALA

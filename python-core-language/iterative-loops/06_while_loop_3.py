@@ -1,6 +1,10 @@
-#
-# while Loop in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : `while` Loop
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -9,6 +13,6 @@
 # iterate perpetually or run in an infinite loop
 # while some situations require to run forever like services
 # CODE
-#  while(1==1)
-#      print("in infinite loop")
+# while(1==1):
+#     print("in infinite loop")
 # To stop, Close the application if nothing responds

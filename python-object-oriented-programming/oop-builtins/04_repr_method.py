@@ -1,6 +1,10 @@
-#
-# __repr__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __repr__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -14,5 +18,4 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(repr(my_dog))  
-
-# Output: Dog('Buddy', 5)
+# OUTPUT: Dog('Buddy', 5)

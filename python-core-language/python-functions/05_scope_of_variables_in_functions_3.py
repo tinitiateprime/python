@@ -1,6 +1,10 @@
-#
-# Scope of Variables in Functions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Scope of Variables in Functions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -12,7 +16,7 @@ def func():
 
 func()
 print(global_variable)  # Accessing global variable outside function
-# Output: 10
+# OUTPUT: 10
 #         20
 #         10
 

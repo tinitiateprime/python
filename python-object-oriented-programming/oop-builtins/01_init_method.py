@@ -1,6 +1,10 @@
-#
-# __init__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __init__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -13,5 +17,4 @@ class Dog:
 # Creating an instance of Dog
 my_dog = Dog("Buddy", 5)
 # Constructor is automatically called implicitly when an object is created
-
-# Output: Dog name is Buddy, age = 5
+# OUTPUT: Dog name is Buddy, age = 5

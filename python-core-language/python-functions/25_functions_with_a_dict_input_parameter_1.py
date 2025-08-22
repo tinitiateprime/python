@@ -1,6 +1,10 @@
-#
-# Functions with a DICTIONARY input parameter in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with a DICTIONARY input parameter
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -16,7 +20,6 @@ def extract_dictionary_keys_values(in_dictionary):
 
 # Calling the function
 extract_dictionary_keys_values({1:'A',2:'B', 3:'C'})
-
 # OUTPUT:
 #       [1, 2, 3]
 #       ['A', 'B', 'C']

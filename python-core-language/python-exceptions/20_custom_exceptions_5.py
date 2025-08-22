@@ -1,6 +1,10 @@
-#
-# Custom Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Custom Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -15,4 +19,4 @@ try:
     process_data(None)
 except CustomError as ce:
     print(ce)
-# Output: No data provided!
+# OUTPUT: No data provided!

@@ -1,12 +1,16 @@
-#
-# Looping Through a Range of Numbers in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Looping Through Range
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
 for i in range(5):
     print(i)    # Index starts from ZERO!
-# Output: 0
+# OUTPUT: 0
 #         1
 #         2
 #         3

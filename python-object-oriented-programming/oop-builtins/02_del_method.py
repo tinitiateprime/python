@@ -1,6 +1,10 @@
-#
-# __del__ Method In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __del__ Method
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -27,8 +31,7 @@ del obj2
 # Uncomment the below, try to call the call function again, will give error
 # obj1.call()
 # obj2.call()
-
-# Output: Calling function from Object 1
+# OUTPUT: Calling function from Object 1
 #         Calling function from Object 2
 #         Object 1 is being destroyed
 #         Object 2 is being destroyed

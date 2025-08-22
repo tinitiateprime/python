@@ -1,6 +1,10 @@
-#
-# Single Inheritance With Constructors In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Single Inheritance With Constructors
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -36,8 +40,7 @@ print(cObj.parentVar2)
 print(cObj.childVar2)  
 cObj.childFunction()   
 cObj.parentFunction()  
-
-# Output: ParentVar2 Value
+# OUTPUT: ParentVar2 Value
 #         ChildVar2 Value
 #         This is a message from ChildClass.childFunction
 #         This is a message from ParentClass.parentFunction

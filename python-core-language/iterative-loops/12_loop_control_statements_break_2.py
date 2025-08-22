@@ -1,6 +1,10 @@
-#
-# Loop Control Statements in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Loop Control Statements
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,5 +15,5 @@ while (cur_value < 5):
     if cur_value==3:
         break
     print('Cur_value: ', cur_value)
-# Output: Cur_value:  1
+# OUTPUT: Cur_value:  1
 #         Cur_value:  2

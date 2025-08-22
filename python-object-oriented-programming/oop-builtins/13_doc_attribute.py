@@ -1,6 +1,10 @@
-#
-# __doc__ Attribute In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __doc__ Attribute
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -10,5 +14,4 @@ class Dog:
         self.name = name
 
 print(Dog.__doc__)  
-
-# Output: This class represents a dog.
+# OUTPUT: This class represents a dog.

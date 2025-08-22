@@ -1,6 +1,10 @@
-#
-# Class and Object In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Class and Object
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -44,3 +48,9 @@ tObject = Tinitiate()
 
 # Call the class function
 tObject.ti_function()
+# OUTPUT: 100
+#         ['a', 'b', 'c']
+#         ('x', 'y', 'z')
+#         {'1': 'A', '2': 'b', '3': 'c'}
+#         This is a message from the TINITIATE Class ti_function
+#         This is a message from the TINITIATE Class ti_function

@@ -1,12 +1,16 @@
-#
-# Looping Through a Range of Numbers in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Looping Through Range
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
 for c in range(5):
     print('Loop Count: ',c)
-# Output: Loop Count:  0
+# OUTPUT: Loop Count:  0
 #         Loop Count:  1
 #         Loop Count:  2
 #         Loop Count:  3

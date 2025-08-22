@@ -1,6 +1,10 @@
-#
-# Inheritance: Parent Class & Child Class In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Inheritance
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -22,6 +26,5 @@ cObj = ChildClass()
 # Calling the child class and parent class methods from the child object
 cObj.childFunction()
 cObj.parentFunction()
-
-# Output: This is a message from ChildClass.childFunction
+# OUTPUT: This is a message from ChildClass.childFunction
 #         This is a message from ParentClass.parentFunction

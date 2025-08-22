@@ -120,24 +120,26 @@
         * Dictionary to a Tuple of Lists
         * Conclusion
     * ### [Conditional Decision Making](./python-core-language/conditional-decision-making/conditional_decision_making.md)
-        * The if Statement
-        * The if-else Statement
-        * The if-elif-else Statement
-        * Nested if Statements
-        * Short-Hand if Statement
+        * `if` Statement
+        * `if-else` Statement
+        * `if-elif-else` Statement
+        * Nested `if` Statements
+        * Short-Hand `if` Statement
         * Use of Logical Operators In Conditional Statements
+        * Conclusion
     * ### [Iterative Loops](./python-core-language/iterative-loops/iterative_loops.md)
-        * for Loop
-        * while Loop
+        * `for` Loop
+        * `while` Loop
         * Nested Loops
-        * Looping Through a Range of Numbers
+        * Looping Through Range
         * Loop Control Statements
-            * break
-            * continue
-            * pass
-        * Looping Through a Dictionary
+            * `break`
+            * `continue`
+            * `pass`
+        * Looping Through Dictionary
         * Looping Through Index
         * Use Cases of Iterative Loops
+        * Conclusion
     * ### [Python Functions](./python-core-language/python-functions/python_functions.md)
         * Function Structure
         * Defining a Function
@@ -159,10 +161,12 @@
             * Functions with a LIST input parameter
             * Functions with a TUPLE input parameter
             * Functions with a DICTIONARY input parameter
-        * Functions Arguments Pass By Reference
-        * Functions Arguments Pass By Value
-        * Lambda Functions / Anonymous functions
+        * Functions Arguments Passing
+            * Arguments Pass By Reference
+            * Arguments Pass By Value
+        * Lambda Functions/Anonymous functions
         * Use Cases of Functions
+        * Conclusion
     * ### [Python Exceptions](./python-core-language/python-exceptions/python_exceptions.md)
         * Exception Hierarchy
             * BaseException
@@ -173,9 +177,10 @@
             * GeneratorExit 
         * Handling Exceptions
         * Handling Multiple Exceptions
-        * Using `else` and `finally` in Exceptions
+        * Handling Exceptions Using `else` and `finally`
         * Raising Exceptions
         * Custom Exceptions
+        * Conclusion
 * ### Python Object Oriented Programming
     * ### [Python OOP](./python-object-oriented-programming/python-oop/python_oop.md)
         * Class
@@ -185,8 +190,8 @@
         * Encapsulation
         * Inheritance
         * Polymorphism
+        * Conclusion
     * ### [OOP Inheritance](./python-object-oriented-programming/oop-inheritance/oop_inheritance.md)
-        * Parent Class & Child Class
         * Multiple Inheritance
         * Multi-Level Inheritance
         * Inheritance Overriding
@@ -211,8 +216,10 @@
         * Import and Instantiate Functional Code File
         * Create an Object Oriented Programming code
         * Import and Instantiate OOP Code File
-        * Functional Programming (Pros - Cons)
-        * Object-Oriented Programming (Pros - Cons)
+        * Functional Code vs. Object-Oriented Code
+            * Functional Programming (Pros - Cons)
+            * Object-Oriented Programming (Pros - Cons)
+        * Conclusion
 * ### Python Modules
     * ### [Modules](./python-modules/python-modules/python_modules.md)
         * Creating a Module

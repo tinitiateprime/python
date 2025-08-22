@@ -1,6 +1,10 @@
-#
-# Class Private Variables In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Class Private Variables
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -23,15 +27,18 @@ class MyClass:
 obj = MyClass()
 
 # Accessing public variable
-print(obj.public_variable)  # Output: I'm public!
+print(obj.public_variable)  
+# OUTPUT: I'm public!
 
 # Attempting to access private variable directly (will raise an AttributeError)
 # Uncomment the below and try
 # print(obj.__private_variable)
 
 # Accessing private variable using methods
-print(obj.get_private_variable())  # Output: I'm private!
+print(obj.get_private_variable())  
+# OUTPUT: I'm private!
 
 # Modifying private variable using methods
 obj.set_private_variable("New private value")
-print(obj.get_private_variable())  # Output: New private value
+print(obj.get_private_variable())  
+# OUTPUT: New private value

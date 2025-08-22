@@ -1,6 +1,10 @@
-#
-# Handling Exceptions Using `finally` in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions Using `finally`
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -10,4 +14,4 @@ except ZeroDivisionError:
     print("Tinitiate: Cannot Divide by ZERO")
 finally:
     print("Tinitiate: THIS MESSAGE MUST BE PRINTED")
-# Output: Tinitiate: THIS MESSAGE MUST BE PRINTED
+# OUTPUT: Tinitiate: THIS MESSAGE MUST BE PRINTED

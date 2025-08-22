@@ -1,6 +1,10 @@
-#
-# Multi-level Inheritance With Constructors In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Multi-level Inheritance With Constructors
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -48,8 +52,7 @@ print(gcObj.parentVar)
 gcObj.SuperParentFunction()
 gcObj.ParentFunction()
 gcObj.ChildMIFunction()
-
-# Output: SuperParentVar Value
+# OUTPUT: SuperParentVar Value
 #         ParentVar Value
 #         This is a message from the SuperParent.SuperParentFunction
 #         This is a message from the Parent.ParentFunction

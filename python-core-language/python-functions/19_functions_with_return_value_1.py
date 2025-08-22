@@ -1,6 +1,10 @@
-#
-# Functions with Return Value in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with Return Value
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -14,6 +18,5 @@ print(x)
 
 ## Call the function, Use the call in a print
 print(return_sum(1, 2))
-
-# Output: 3
+# OUTPUT: 3
 #         3

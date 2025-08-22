@@ -1,6 +1,10 @@
-#
-# Handling Exceptions in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Handling Exceptions
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,4 +15,4 @@ except Exception as e:
 # type() function returns the type of the specified object as a type object.
 # type(e).__name__ prints the name of the exception class
 # e prints the actual exception instance
-# Output: ZeroDivisionError division by zero
+# OUTPUT: ZeroDivisionError division by zero

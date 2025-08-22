@@ -1,6 +1,10 @@
-#
-# Importing and Instantiating OOP Code File In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Importing and Instantiating OOP Code File
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -24,8 +28,7 @@ print(Obj2.mul1())
 
 # Print the object Size of both the objects
 print(Obj1.__sizeof__() + Obj2.__sizeof__())
-
-# Output: Class OOPs vars:
+# OUTPUT: Class OOPs vars:
 #         n1= 100
 #         n2= 200
 #         300

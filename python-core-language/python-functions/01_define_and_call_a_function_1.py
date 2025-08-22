@@ -1,6 +1,10 @@
-#
-# Define and call a Function in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Define and call a Function
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -10,5 +14,4 @@ def greet(name):
 
 # Calling a Function
 greet("Alice")
-
-# Output: Hello, Alice
+# OUTPUT: Hello, Alice

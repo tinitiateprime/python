@@ -1,6 +1,10 @@
-#
-# Constructor In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Constructor
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -22,8 +26,7 @@ king.introduce()
 # Constructor method is called automatically whenever new objects created
 jake = Person("Jake", 23)
 jackel = Person("Jackel", 25)
-
-# Output: This message is from constructor
+# OUTPUT: This message is from constructor
 #         Hello, my name is King and I am 30 years old.
 #         This message is from constructor
 #         This message is from constructor

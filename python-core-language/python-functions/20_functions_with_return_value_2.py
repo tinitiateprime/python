@@ -1,6 +1,10 @@
-#
-# Functions with Return Value in Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Functions with Return Value
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -22,4 +26,4 @@ def calculate_average(numbers):
 numbers_list = [1, 2, 3, 4, 5]
 average = calculate_average(numbers_list)
 print("Average:", average)
-# Output: Average: 3.0
+# OUTPUT: Average: 3.0

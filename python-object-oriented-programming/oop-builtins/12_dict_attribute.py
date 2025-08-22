@@ -1,6 +1,10 @@
-#
-# __dict__ Attribute In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : __dict__ Attribute
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -11,5 +15,4 @@ class Dog:
 
 my_dog = Dog("Buddy", 5)
 print(my_dog.__dict__)
-
-# Output: {'name': 'Buddy', 'age': 5}
+# OUTPUT: {'name': 'Buddy', 'age': 5}

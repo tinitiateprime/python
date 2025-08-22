@@ -1,6 +1,8 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
 # Python Functions
@@ -35,7 +37,7 @@ def function_name(parameter1, parameter2, ...):
     * `def`: This keyword is used to define a function.
     * **function_name**: Replace this with the name you want to give to your function. Choose a descriptive name that indicates the function's purpose and follow Python naming conventions (lowercase with underscores for readability).
     * **parameters/arguments**: These are placeholders for values that the function expects to receive when it's called. Parameters are optional. They are enclosed in parentheses `()` and multiple parameters can be separated by commas`,`. After parameters colon`:` indicates the end of function definition, and next is the code within the function.
-    * **Indentation**: Code inside the function must be indented, meaning all code inside a function must atleast have 2 spaces in front of them, Any code without that indentation means that code is outside the function code.
+    * **Indentation**: Code inside the function must be indented, meaning all code inside a function must at least have 2 spaces in front of them, Any code without that indentation means that code is outside the function code.
     * **docstring**: An optional string that provides documentation about the function's purpose, parameters, and expected behavior.
     * **Function body**: This is where you write the actual code that accomplishes the task. It consists of one or more statements that perform a specific task or computation. You can use the provided parameters within the function.
     * `return`: An optional statement used to send a value back from the function when it's executed.
@@ -43,10 +45,11 @@ def function_name(parameter1, parameter2, ...):
 ## Defining a Function
 * Using the above syntax, we can define the function with code block.
 ```python
-# Defining a Function
 # Example 1:
 def greet(name):
     print("Hello,", name)
+
+
 
 # Example 2:
 def square(number):
@@ -67,8 +70,8 @@ def greet(name):
 
 # Calling a Function
 greet("Alice")
+# OUTPUT: Hello, Alice
 
-# Output: Hello, Alice
 
 
 # Example 2:
@@ -82,8 +85,7 @@ def square(number):
 num = 5
 square_result = square(num)
 print(f"The square of {num} is {square_result}")
-
-# Output: The square of 5 is 25
+# OUTPUT: The square of 5 is 25
 ```
 
 ## Scope of Variables in Functions
@@ -100,9 +102,9 @@ def my_func():
 x = 20 # Global Variable
 my_func()
 print("Outside function:", x)
-
-# Output: Inside function: 10
+# OUTPUT: Inside function: 10
 #         Outside function: 20
+
 
 
 # Example 2:
@@ -115,8 +117,7 @@ def myFunction():
 # Make a call to myFunction
 myFunction()
 print('Value of MyVar outside function: ', MyVar)
-
-# Output: Value of MyVar inside function:  This is a local variable
+# OUTPUT: Value of MyVar inside function:  This is a local variable
 #         Value of MyVar outside function:  This is a Global Value
 
 
@@ -129,7 +130,7 @@ def func():
 
 func()
 print(global_variable)  # Accessing global variable outside function
-# Output: 10
+# OUTPUT: 10
 #         20
 #         10
 
@@ -147,7 +148,7 @@ def greet(name, greeting):
 
 greet("Alice", "Hello")  
 # "Alice" is assigned to name, "Hello" is assigned to greeting
-# Output: Hello Alice
+# OUTPUT: Hello Alice
 ```
 ### Keyword Arguments
 * Keyword arguments are passed to a function using the parameter name followed by the value.
@@ -158,7 +159,7 @@ def greet(name, greeting):
 
 greet(greeting="Hello", name="Bob")  
 # "Hello" is assigned to greeting, "Bob" is assigned to name
-# Output: Hello Bob
+# OUTPUT: Hello Bob
 ```
 ### Default Arguments
 * Default arguments have a default value specified in the function definition.
@@ -169,7 +170,8 @@ def greet(name, greeting="Hello"):
     print(greeting, name)
 
 greet("Charlie")  # Default argument: "Hello" is assigned to greeting
-# Output: Hello Charlie
+# OUTPUT: Hello Charlie
+
 
 
 # Example 2:
@@ -179,8 +181,9 @@ def power(base, exponent=2):
 
 power(3)      # Uses default exponent (2)
 power(2, 4)   # Overrides default exponent
-# Output: 3 raised to the power of 2 is 9
+# OUTPUT: 3 raised to the power of 2 is 9
 #         2 raised to the power of 4 is 16
+
 
 
 # Example 3:
@@ -218,7 +221,8 @@ def sum_numbers(*args):
 
 print(sum_numbers(1, 2, 3)) 
 # Variable-length arguments: 1, 2, 3 are captured as a tuple (1, 2, 3)
-# Output: 6
+# OUTPUT: 6
+
 
 
 # Example 2:
@@ -228,11 +232,13 @@ def show_items(*items):
         print(item)
 
 print(show_items("apple", "banana", "cherry"))
-# Output: Items:
+# OUTPUT: Items:
 #         apple
 #         banana
 #         cherry
 #         None
+
+
 
 # Example 3:
 def one_fixed_and_arbitrary_length_argument(arg1, *arbitrary_arguments_tuple):
@@ -250,8 +256,7 @@ print(one_fixed_and_arbitrary_length_argument(1, 2, 3, 5, 6))
 # in this case ONE fixed and FOUR variable length
 print(one_fixed_and_arbitrary_length_argument
 (1, 'a1', 'a2', 'a3', 'a4', 'a5', 'a6'))
-
-# Output: Value of the first argument:  1
+# OUTPUT: Value of the first argument:  1
 #         Arbitrary Argument number:  1  value:  2
 #         Arbitrary Argument number:  2  value:  3
 #         Arbitrary Argument number:  3  value:  5
@@ -277,13 +282,13 @@ def print_info(**kwargs):
 
 print_info(name="Alice", age=30, city="New York")  
 # Keyword variable-length arguments: name="Alice", age=30, city="New York"
-# Output: name: Alice
+# OUTPUT: name: Alice
 #         age: 30
 #         city: New York
 ```
 
-## Python Functions With Different Inputs In Parameters
-### Python Functions with empty parameters:
+## Functions With Different Inputs In Parameters
+### Functions with empty parameters
 * Calling a simple python function without any input values or return values
 ```python
 def myFunc():
@@ -294,12 +299,11 @@ myFunc()
 
 # Calling the function again (Can be called as many times as needed)
 myFunc()
-
-#OUTPUT:
+# OUTPUT:
 #    This message is from the function: myFunc
 #    This message is from the function: myFunc
 ```
-### Python Functions with input parameters
+### Functions with input parameters
 * Calling a function with 2 input parameters and returning the sum
 ```python
 def Add2Nums(number1, number2):
@@ -309,12 +313,11 @@ def Add2Nums(number1, number2):
 # Calling the function with input parameters
 Add2Nums(1,2)  # These are the input parameters
 Add2Nums(10,20)
-
 # OUTPUT:
 # Sum of 1 and 2 is 3
 # Sum of 10 and 20 is 30
 ```
-### Python Functions with loop and conditional statements
+### Functions with loop and conditional statements
 * Calling a function with loop and conditional statements as parameters
 ```python
 # Example 1:
@@ -341,6 +344,7 @@ function_with_constructs("Python", 20)
 #    20 is even.
 
 
+
 # Example 2:
 def print_even_numbers(numbers):
     """
@@ -355,7 +359,7 @@ def print_even_numbers(numbers):
 # Call the function
 numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print_even_numbers(numbers_list)
-# Output: 1 is odd
+# OUTPUT: 1 is odd
 #         2 is even
 #         3 is odd
 #         4 is even
@@ -366,7 +370,7 @@ print_even_numbers(numbers_list)
 #         9 is odd
 #         10 is even
 ```
-### Python Functions with Return Value
+### Functions with Return Value
 * A function can **RETURN** a value, Which is a value that is substituted in the place of the function call.
 * The function when returns a value, Must be stored in a variable Or the function can be put in a print statement if the return value is printable.
 ```python
@@ -381,9 +385,9 @@ print(x)
 
 ## Call the function, Use the call in a print
 print(return_sum(1, 2))
-
-# Output: 3
+# OUTPUT: 3
 #         3
+
 
 
 # Example 2:
@@ -405,16 +409,16 @@ def calculate_average(numbers):
 numbers_list = [1, 2, 3, 4, 5]
 average = calculate_average(numbers_list)
 print("Average:", average)
-# Output: Average: 3.0
+# OUTPUT: Average: 3.0
 ```
-### Python Functions with a LIST input parameter
+### Functions with a LIST input parameter
 * Calling a function that accepts a LIST as input parameter.
 ```python
 # Example 1:
 def extract_list_into_strings_and_numbers(in_list):
     """This is a function separates list into a stringlist and numberlist"""
     
-    # Store Numbers from "in_list" parameter in number_lsti
+    # Store Numbers from "in_list" parameter in number_list
     number_list = []
     
     # Store Strings from "in_list" parameter in string_list
@@ -435,10 +439,13 @@ def extract_list_into_strings_and_numbers(in_list):
 
 # Calling the function 
 print(extract_list_into_strings_and_numbers(['1','A', '2', '3','B', 'c']))
-
 # OUTPUT:
 #        ['1', '2', '3']
 #        ['A', 'B', 'c']
+#        None   
+# In Python, when a function doesn’t have a return statement,
+# it implicitly returns `None`
+
 
 
 # Example 2:
@@ -459,9 +466,9 @@ def process_list(input_list):
 numbers = [1, 2, 3, 4, 5]
 result = process_list(numbers)
 print("Squared numbers:", result)
-# Output: Squared numbers: [1, 4, 9, 16, 25]
+# OUTPUT: Squared numbers: [1, 4, 9, 16, 25]
 ```
-### Python Functions with a TUPLE input parameter
+### Functions with a TUPLE input parameter
 * Calling a function that accepts a TUPLE as input parameter.
 ```python
 # Example 1:
@@ -491,10 +498,11 @@ def extract_tuple_into_strings_and_numbers(in_tuple):
 
 # Calling the function 
 print(extract_tuple_into_strings_and_numbers(('1','A', '2', '3','B', 'c')))
-
 # OUTPUT:
 #       ['1', '2', '3']
 #       ['A', 'B', 'c']
+#       None
+
 
 
 # Example 2:
@@ -515,9 +523,9 @@ def reverse_tuple(input_tuple):
 my_tuple = (1, 2, 3, 4, 5)
 reversed_result = reverse_tuple(my_tuple)
 print("Reversed tuple:", reversed_result)
-# Output: Reversed tuple: (5, 4, 3, 2, 1)
+# OUTPUT: Reversed tuple: (5, 4, 3, 2, 1)
 ```
-### Python Functions with a DICTIONARY input parameter
+### Functions with a DICTIONARY input parameter
 * Calling a function that accepts a DICTIONARY as input parameter.
 ```python
 # Example 1:
@@ -533,10 +541,10 @@ def extract_dictionary_keys_values(in_dictionary):
 
 # Calling the function
 extract_dictionary_keys_values({1:'A',2:'B', 3:'C'})
-
 # OUTPUT:
 #       [1, 2, 3]
 #       ['A', 'B', 'C']
+
 
 
 # Example 2:
@@ -564,13 +572,13 @@ data = {
 }
 averages = calculate_average_values(data)
 print("Average values:", averages)
-# Output: Average values: {'A': 20.0, 'B': 25.0, 'C': 30.0}
+# OUTPUT: Average values: {'A': 20.0, 'B': 25.0, 'C': 30.0}
 ```
 
-## Python Functions Arguments Pass By Reference and Pass By Value
+## Functions Arguments Passing
 * In Python, function arguments are passed by object reference, which means that when you pass an object (like a list or a dictionary) as an argument to a function, you are passing a reference to the object, not a copy of the object itself.
 * This behavior can lead to confusion regarding whether Python uses pass by reference or pass by value. 
-### Pass By Reference: 
+### Arguments Pass By Reference
 * When you pass a mutable object (such as a list or a dictionary) to a function in Python, any changes made to the object within the function will affect the original object outside the function.
 ```python
 # Example 1:
@@ -580,7 +588,8 @@ def modify_list(lst):
 my_list = [1, 2, 3]
 modify_list(my_list)
 print(my_list)  
-# Output: [1, 2, 3, 4]
+# OUTPUT: [1, 2, 3, 4]
+
 
 
 # Example 2:
@@ -597,12 +606,13 @@ print('Before passing reference to function, source_list: ', source_list)
 # Passing the "source_list" and NOT A COPY of the "source_list"
 function_pass_by_reference(source_list)
 print('After passing reference to function, source_list: ', source_list)
-
-# Ouput:
+# OUTPUT:
 # Before passing reference to function, source_list:  ['A', 'B', 'C']
 # function_pass_by_reference says Input List:  ['A', 'B', 'C']
 # function_pass_by_reference says changed List:  ['A', 'B', 'C', 'D']
 # After passing reference to function, source_list:  ['A', 'B', 'C', 'D']
+
+
 
 # Example 3:
 def modify_list(my_list):
@@ -613,10 +623,11 @@ def modify_list(my_list):
 numbers = [1, 2, 3]
 
 modify_list(numbers) 
-# Output: [100, 2, 3, 4]
+# OUTPUT: [100, 2, 3, 4]
 
 print(numbers)  
-# Output: [100, 2, 3, 4]
+# OUTPUT: [100, 2, 3, 4]
+
 
 
 # Example 4:
@@ -627,12 +638,12 @@ def add_key_value(my_dict):
 data = {"a": 10, "b": 20}
 
 add_key_value(data) 
-# Output: {'a': 10, 'b': 20, 'c': 30}
+# OUTPUT: {'a': 10, 'b': 20, 'c': 30}
 
 print(data)  
-# Output: {'a': 10, 'b': 20, 'c': 30}
+# OUTPUT: {'a': 10, 'b': 20, 'c': 30}
 ```
-### Pass By Value:
+### Arguments Pass By Value
 * When you pass an immutable object (such as a tuple or an integer) to a function in Python, any modifications made to the object within the function do not affect the original object outside the function.
 * Instead, a new object is created inside the function.
 ```python
@@ -644,10 +655,11 @@ def modify_number(num):
 my_num = 5
 
 modify_number(my_num) 
-# Output: 6
+# OUTPUT: 6
 
 print(my_num)  
-# Output: 5
+# OUTPUT: 5
+
 
 
 # Example 2:
@@ -665,12 +677,12 @@ print('Before passing by value to function, source_list: ', source_list_2)
 function_pass_by_value(source_list_2)
 
 print('After passing by value to function, source_list: ', source_list_2)
-
-# Output:
+# OUTPUT:
 # Before passing by value to function, source_list:  ['A', 'B', 'C']
 # function_pass_by_value says Input List:  ['A', 'B', 'C']
 # function_pass_by_value says changed List:  [1, 2, 3, 4]
 # After passing by value to function, source_list:  ['A', 'B', 'C']
+
 
 
 # Example 3:
@@ -680,7 +692,9 @@ def modify_tuple(t):
 
 my_tuple = (1, 2, 3)
 modify_tuple(my_tuple)
-print(my_tuple)  # Output: (1, 2, 3)
+print(my_tuple)
+# OUTPUT: (1, 2, 3)
+
 
 
 # Example 4:
@@ -691,38 +705,44 @@ def modify_string(s):
 my_string = "hello"
 
 modify_string(my_string) 
-# Output: HELLO
+# OUTPUT: HELLO
 
 print(my_string)  
-# Output: hello
+# OUTPUT: hello
 ```
 
-## Lambda Functions / Anonymous functions
+## Lambda Functions/Anonymous functions
 * Lambda functions (also called anonymous functions) are small, inline functions defined using the `lambda` keyword. 
 * They are useful for short, one-line functions.
 ```python
 # Add Two Numbers
 add = lambda x, y: x + y
 print(add(3, 4))  
-# Output: 7
+# OUTPUT: 7
+
+
 
 # Check if a Number is Even
 is_even = lambda x: x % 2 == 0
 print(is_even(6))  
-# Output: True
+# OUTPUT: True
 print(is_even(7))  
-# Output: False
+# OUTPUT: False
+
+
 
 # Square a Number
 square = lambda x: x ** 2
 print(square(5))  
-# Output: 25
+# OUTPUT: 25
+
+
 
 # Sorting a List of Tuples by the Second Element
 points = [(1, 2), (3, 1), (5, 4), (2, 2)]
 sorted_points = sorted(points, key=lambda x: x[1])
 print(sorted_points)  
-# Output: [(3, 1), (1, 2), (2, 2), (5, 4)]
+# OUTPUT: [(3, 1), (1, 2), (2, 2), (5, 4)]
 ```
 
 ## Use Cases of Functions
@@ -735,3 +755,6 @@ print(sorted_points)
 * They allow you to encapsulate logic and create code that's easier to understand and maintain.
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

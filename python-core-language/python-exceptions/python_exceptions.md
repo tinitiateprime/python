@@ -1,6 +1,8 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
 # Python Exceptions
@@ -19,7 +21,7 @@
 * This is the base class for all built-in, non-system-exiting exceptions. User-defined exceptions should typically inherit from this class.
     - **StandardError**: This class is the base class for all built-in exceptions except `StopIteration`, `SystemExit`, `KeyboardInterrupt`, and `GeneratorExit`.
         - **ArithmeticError**: This class is the base class for numeric errors.
-        
+
             - **ZeroDivisionError**: Raised when division or modulo by zero occurs.
             - **OverflowError**: Raised when arithmetic operation exceeds the limits of the data type.
             - **FloatingPointError**: Raised when a floating-point operation fails.
@@ -48,7 +50,7 @@
 
 ## Handling Exceptions
 * You can use a `try` and `except` blocks to handle exceptions in Python.
-* The try block contains the code that might raise an exception, and the except block catches and handles the exception if it occurs.
+* The `try` block contains the code that might raise an exception, and the `except` block catches and handles the exception if it occurs.
 ```python
 # Example 1:
 try:
@@ -57,7 +59,8 @@ try:
 except ZeroDivisionError:
     # Code to handle the exception
     print("Error: Division by zero")
-# Output: Error: Division by zero
+# OUTPUT: Error: Division by zero
+
 
 
 # Example 2:
@@ -65,7 +68,8 @@ try:
     result = "10" / 2
 except TypeError:
     print("Error: Unsupported operand type(s) for /: 'str' and 'int'")
-# Output: Error: Unsupported operand type(s) for /: 'str' and 'int'
+# OUTPUT: Error: Unsupported operand type(s) for /: 'str' and 'int'
+
 
 
 # Example 3:
@@ -74,7 +78,8 @@ try:
     print(my_list[4])
 except IndexError:
     print("Error: Index out of range")
-# Output: Error: Index out of range
+# OUTPUT: Error: Index out of range
+
 
 
 # Example 4:
@@ -83,7 +88,8 @@ try:
     value = my_dict["c"]
 except KeyError:
     print("Error: Key not found")
-# Output: Error: Key not found
+# OUTPUT: Error: Key not found
+
 
 
 # Example 5:
@@ -94,7 +100,7 @@ except Exception as e:
 # type() function returns the type of the specified object as a type object.
 # type(e).__name__ prints the name of the exception class
 # e prints the actual exception instance
-# Output: ZeroDivisionError division by zero
+# OUTPUT: ZeroDivisionError division by zero
 ```
 
 ## Handling Multiple Exceptions
@@ -112,7 +118,8 @@ except ZeroDivisionError:
 except Exception as e:
     # Catch all other exceptions
     print("An error occurred3 :", e)
-# Output: An error occurred 2:
+# OUTPUT: An error occurred 2:
+
 
 
 # Example 2:
@@ -121,9 +128,9 @@ try:
     result = 10 / value
 except (ValueError, ZeroDivisionError):
     print("Invalid input or division by zero.")
+# INPUT : 0
+# OUTPUT: Invalid input or division by zero.
 
-# Input: 0
-# Output: Invalid input or division by zero.
 
 
 # Example 3:
@@ -134,7 +141,8 @@ try:
     print(my_list[4])  # This will raise an IndexError
 except (KeyError, IndexError):
     print("Error: Key not found or index out of range")
-# Output: Error: Key not found or index out of range
+# OUTPUT: Error: Key not found or index out of range
+
 
 
 # Example 4:
@@ -149,17 +157,16 @@ except ZeroDivisionError:
     print("Error: Division by zero is not allowed")
 except Exception as e:
     print("An error occurred:", e)
+# INPUT 1: a
+# INPUT 2: 1 
+# OUTPUT : Error: Please enter valid integers
 
-# Input 1: a
-# Input 2: 1 
-# Output: Error: Please enter valid integers
-
-# Input 1: 1
-# Input 2: 0
-# Output: Error: Division by zero is not allowed
+# INPUT 1: 1
+# INPUT 2: 0
+# OUTPUT : Error: Division by zero is not allowed
 ```
 
-## Using `else` and `finally`
+## Handling Exceptions Using `else` and `finally`
 * The `else` block is executed when no exceptions are raised in the try block. It's often used to place code that should run only if the try block completes successfully.
 * The `finally` block contains code that is executed no matter what, whether an exception occurred or not. It's used for cleanup operations, like closing files or releasing resources.
 ```python
@@ -170,7 +177,8 @@ except ZeroDivisionError:
     print("Tinitiate: Cannot Divide by ZERO")
 else:
     print("Tinitiate: Execution completed successfully")
-# Output: Tinitiate: Execution completed successfully
+# OUTPUT: Tinitiate: Execution completed successfully
+
 
 
 # Example 2:
@@ -180,7 +188,8 @@ except ZeroDivisionError:
     print("Tinitiate: Cannot Divide by ZERO")
 finally:
     print("Tinitiate: THIS MESSAGE MUST BE PRINTED")
-# Output: Tinitiate: THIS MESSAGE MUST BE PRINTED
+# OUTPUT: Tinitiate: THIS MESSAGE MUST BE PRINTED
+
 
 
 # Example 3:
@@ -192,9 +201,9 @@ else:
     print("Result:", result)
 finally:
     print("Execution complete")
-    
-# Output: Result: 5.0
+# OUTPUT: Result: 5.0
 #         Execution complete
+
 
 
 # Example 4:
@@ -207,14 +216,14 @@ else:
     print(f"Result: {result}")
 finally:
     print("Execution complete.")
-
-# Input : 2
-# Output: Result: 5.0
+# INPUT : 2
+# OUTPUT: Result: 5.0
 #         Execution complete.
 
-# Input : 0
-# Output: Division by zero is not allowed.
+# INPUT : 0
+# OUTPUT: Division by zero is not allowed.
 #         Execution complete.
+
 
 
 # Example 5:
@@ -234,9 +243,8 @@ else:
     print("Value at index", x, ":", value)
 finally:
     print("Execution complete")
-
-# Input : 2
-# Output: Result: 5.0
+# INPUT : 2
+# OUTPUT: Result: 5.0
 #         Value at index 2 : 3
 #         Execution complete
 ```
@@ -247,7 +255,7 @@ finally:
 x = -5
 if x < 0:
     raise ValueError("x cannot be negative")
-# Output: ValueError: x cannot be negative
+# OUTPUT: ValueError: x cannot be negative
 ```
 
 ## Custom Exceptions
@@ -259,7 +267,8 @@ class CustomError(Exception):
     pass        # Placeholder for class implementation
 
 raise CustomError("An error occurred")
-# Output: CustomError: An error occurred
+# OUTPUT: CustomError: An error occurred
+
 
 
 # Example 2:
@@ -270,7 +279,8 @@ try:
     raise tinitiate_exception
 except tinitiate_exception:
     print("This is a user defined exception !")
-# Output: This is a user defined exception !
+# OUTPUT: This is a user defined exception !
+
 
 
 # Example 3:
@@ -282,6 +292,7 @@ except:
 # and also to do nothing(ignore errors) in try or except block.
 
 
+
 # Example 4:
 try:
     # Code that may raise an exception
@@ -289,6 +300,7 @@ try:
 except SomeException:
     # Ignore the exception
     pass
+
 
 
 # Example 5:
@@ -303,7 +315,8 @@ try:
     process_data(None)
 except CustomError as ce:
     print(ce)
-# Output: No data provided!
+# OUTPUT: No data provided!
+
 
 
 # Example 6:
@@ -326,7 +339,8 @@ try:
     acc.withdraw(1500)
 except InsufficientFundsError as e:
     print("Error:", e)
-# Output: Error: 
+# OUTPUT: Error: 
+
 
 
 # Example 7:
@@ -337,7 +351,8 @@ try:
     raise CustomError("An error occurred")
 except CustomError as e:
     print("Custom error:", e)
-# Output: Custom error: An error occurred
+# OUTPUT: Custom error: An error occurred
+
 
 
 # Example 8:
@@ -352,8 +367,9 @@ try:
 except CustomError as e:
     print("Custom error:", e)
     print("Error code:", e.code)
-# Output: Custom error: An error occurred
+# OUTPUT: Custom error: An error occurred
 #         Error code: 500
+
 
 
 # Example 9:
@@ -369,7 +385,7 @@ except ti_exception_1:
 except ti_exception_2:
     # Exception handler for user defined exception: ti_exception_2 
     print("This is a user defined exception 2 Handler !")
-# Output: This is a user defined exception 1 Handler !
+# OUTPUT: This is a user defined exception 1 Handler !
 ```
 
 ## Conclusion
@@ -377,3 +393,6 @@ except ti_exception_2:
 * By anticipating potential errors and implementing appropriate exception handling mechanisms, developers can gracefully manage unexpected situations and prevent their programs from crashing.
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

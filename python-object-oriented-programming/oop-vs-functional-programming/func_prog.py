@@ -1,6 +1,10 @@
-#
-# Importing and Instantiating Functional Code File In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Importing and Instantiating Functional Code File
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -25,8 +29,7 @@ print(f2.mul1())
 
 # Print the instance size of both instances
 print(f1.__sizeof__() + f2.__sizeof__())
-
-# Output: Function vars:
+# OUTPUT: Function vars:
 #         n1= 100
 #         n2= 200
 #         300
