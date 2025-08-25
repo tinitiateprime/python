@@ -1,9 +1,11 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
-# Python Custom Module Folder
+# Custom Module Folder
 * Python Custom Module Folder or a Package are collection of python files placed in one DIRECTORY (Name with No Spaces), This DIRECTORY name becomes the module name.
 * Essentially, a custom module folder or package serves as a container for organizing related Python code files.
 * Each file within this directory typically may contains functions, classes, or variables that serve a specific purpose or contribute to a particular aspect of functionality within the module.
@@ -67,8 +69,7 @@ from MathCalc import add2nums, mul2nums, sub2nums
 add2nums.add2nums(10,20)
 mul2nums.mul2nums(20,30)
 sub2nums.sub2nums(40,10)
-
-# Output: 30
+# OUTPUT: 30
 #         600
 #         30
 ```
@@ -105,12 +106,11 @@ add2nums.add2nums(10,20)
 mul2nums.mul2nums(20,30)
 # Uncomment the below, will give an error
 # sub2nums.sub2nums(40,10)
-
-# Output: 30
+# OUTPUT: 30
 #         600
 ```
 
-## Python Module Executable and Import
+## Module Executable and Import
 * A python module can be called as an executable and also be called as import.
 * The `if __name__ == "__main__":` construct in Python enables a script to serve dual purposes: it can be utilized as a module by other scripts, while also capable of running independently as a standalone script.
 * `__main__` is a predefined variable in Python that stores information about the currently executing program. On the other hand, `__name__` is another built-in variable that holds the name of the current Python module or script.
@@ -134,8 +134,7 @@ if __name__ == "__main__":
     
     result = add_variables(value1, value2)
     print(f"The sum is: {result}")
-
-# Output: Enter the first number: 3
+# OUTPUT: Enter the first number: 3
 #         Enter the second number: 4
 #         The sum is: 7
 ```
@@ -154,12 +153,11 @@ value3 = 5
 value4 = 3
 result_custom = addition_module.add_variables(value3, value4)
 print(f"Custom sum is: {result_custom}")
-
-# Output: Default sum is: 0
+# OUTPUT: Default sum is: 0
 #         Custom sum is: 8
 ```
 
-## Python Custom Module Folder Executable and Import
+## Custom Module Folder Executable and Import
 * Adding a `__main__.py` file to a custom module folder will make it executable.
 * A Python custom module folder program can be run by the command line `python -m NameOfTheModuleFolder`
 
@@ -198,8 +196,7 @@ def main():
 if __name__ == "__main__":
     # This block will only execute if this script (__main__.py) is run directly.
     main()
-
-# Output: Enter the first number for addition: 1
+# OUTPUT: Enter the first number for addition: 1
 #         Enter the second number for addition: 2
 #         The sum is: 3
 #         Enter the first number for multiplication: 3
@@ -208,13 +205,13 @@ if __name__ == "__main__":
 ```
 
 **Run a custom module folder:**
-* To execute the package as a script and see the functionalities, navigate to the directory containing these files in command prompt and run:
+* To execute the package as a script and see the functionalities, navigate to the directory containing these files(here we have created `MathModule` folder) in command prompt and run:
 ```bash
 # Run using syntax python -m ModuleName
 python -m MathModule
 ```
 
-## Accessing Python modules from a different or custom directory path
+## Accessing modules from a different or custom directory path
 * To import the Module from a different folder, use syntax `import sys` and the absolute path of the folder.
 ```python
 import sys
@@ -222,3 +219,6 @@ sys.path.append('/path/to/module-folder')
 ```
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

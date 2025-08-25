@@ -221,7 +221,7 @@
             * Object-Oriented Programming (Pros - Cons)
         * Conclusion
 * ### Python Modules
-    * ### [Modules](./python-modules/python-modules/python_modules.md)
+    * ### [Modules](./python-modules/python-modules/modules.md)
         * Creating a Module
         * Using a Module
         * Importing Module Content
@@ -229,8 +229,10 @@
         * Standard Library Modules
         * Packages
         * Benefits of Using Modules
-    * ### [Custom Module Folder](./python-modules/python-custom-module-folder/python_custom_module_folder.md)
+    * ### [Custom Module Folder](./python-modules/python-custom-module-folder/custom_module_folder.md)
         * Creating Custom Module Folder
+        * Demonstration/Example for Creating Custom Module Folder
+        * Custom module folder with `__all__` in `__init__.py` file
         * Module Executable and Import
         * Custom Module Folder Executable and Import
         * Accessing Module from a Path

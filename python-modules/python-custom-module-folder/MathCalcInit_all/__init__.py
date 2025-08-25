@@ -1,1 +1,0 @@
-__all__ = ['add2nums', 'mul2nums']

@@ -1,6 +1,10 @@
-#
-# Creating a Module In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Creating a Module
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 

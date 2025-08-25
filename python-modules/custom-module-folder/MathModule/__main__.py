@@ -17,8 +17,7 @@ def main():
 if __name__ == "__main__":
     # This block will only execute if this script (__main__.py) is run directly.
     main()
-
-# Output: Enter the first number for addition: 1
+# OUTPUT: Enter the first number for addition: 1
 #         Enter the second number for addition: 2
 #         The sum is: 3
 #         Enter the first number for multiplication: 3

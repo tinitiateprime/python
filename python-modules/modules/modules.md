@@ -1,9 +1,11 @@
 ![Python Tinitiate Image](../../python_tinitiate.png)
+
 # Python Tutorial
 &copy; TINITIATE.COM
+
 ##### [Back To Contents](../../README.md)
 
-# Python Modules
+# Modules
 * Python modules are a fundamental concept in Python programming, enabling you to organize and reuse code efficiently.
 * A module in Python is simply a file containing Python code. This code can define functions, classes, and variables, and can also include runnable code.
 * Modules are used to organize and break down your code into smaller, reusable components.
@@ -66,8 +68,7 @@ print (my_module.dictionary_world_nations);
 
 # Calling a function from the "my_module"
 print (my_module.module_function_add(1, 3));
-
-# Output: USA China India
+# OUTPUT: USA China India
 #         ['Argentina', 'Italy', 'Australia']
 #         ('Spain', 'France', 'Canada')
 #         {'Country_1': 'Brazil', 'Country_2': 'Germany', 'Country_3': 'Japan'}
@@ -94,8 +95,7 @@ print (dictionary_world_nations);
 
 # Calling a function from the "my_module"
 print (module_function_add(1, 3));
-
-# Output: USA
+# OUTPUT: USA
 #         {'Country_1': 'Brazil', 'Country_2': 'Germany', 'Country_3': 'Japan'}
 #         4
 ```
@@ -120,8 +120,7 @@ print (m1.dictionary_world_nations);
 
 # Calling a function from the "my_module"
 print (m1.module_function_add(1, 3));
-
-# Output: USA China India
+# OUTPUT: USA China India
 #         ['Argentina', 'Italy', 'Australia']
 #         ('Spain', 'France', 'Canada')
 #         {'Country_1': 'Brazil', 'Country_2': 'Germany', 'Country_3': 'Japan'}
@@ -136,8 +135,7 @@ import math
 
 print(math.sqrt(16))
 print(math.pi)
-
-# Output: 4.0
+# OUTPUT: 4.0
 #         3.141592653589793
 ```
 
@@ -161,7 +159,7 @@ def sub_greet(name):
 from my_package.sub_module import sub_greet
 
 sub_greet("Dave")
-# Output: Hello from the sub-module, Dave!
+# OUTPUT: Hello from the sub-module, Dave!
 ```
 
 ## Benefits of Using Modules
@@ -171,3 +169,6 @@ sub_greet("Dave")
 * **Encapsulation:** You can encapsulate related code and hide implementation details, exposing only what's necessary to the user.
 
 ##### [Back To Contents](../../README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

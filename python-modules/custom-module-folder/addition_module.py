@@ -1,6 +1,10 @@
-#
-# Executable and Import Module In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Executable and Import Module
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -18,7 +22,6 @@ if __name__ == "__main__":
     
     result = add_variables(value1, value2)
     print(f"The sum is: {result}")
-
-# Output: Enter the first number: 3
+# OUTPUT: Enter the first number: 3
 #         Enter the second number: 4
 #         The sum is: 7

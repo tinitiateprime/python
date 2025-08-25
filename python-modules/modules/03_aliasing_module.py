@@ -1,6 +1,10 @@
-#
-# Aliasing a Module In Python
-# Author: __author_credits__
+# ==============================================================================
+#  Organization : TINITIATE TECHNOLOGIES PVT LTD
+#  Website      : tinitiate.com
+#  Script Title : Python Tutorial
+#  Description  : Aliasing a Module
+#  Author       : Team Tinitiate
+# ==============================================================================
 
 
 
@@ -21,8 +25,7 @@ print (m1.dictionary_world_nations);
 
 # Calling a function from the "my_module"
 print (m1.module_function_add(1, 3));
-
-# Output: USA China India
+# OUTPUT: USA China India
 #         ['Argentina', 'Italy', 'Australia']
 #         ('Spain', 'France', 'Canada')
 #         {'Country_1': 'Brazil', 'Country_2': 'Germany', 'Country_3': 'Japan'}
