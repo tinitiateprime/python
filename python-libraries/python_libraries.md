@@ -32,9 +32,21 @@
 ### Library
 * A library is a more general term that refers to a collection of packages or modules that are used to develop software. Libraries provide a set of functionalities and are not limited to Python; they can exist in any programming language. In Python, a library might include a set of packages that work together to provide specific functionality or capabilities, such as NumPy or Pandas for data analysis. Libraries are designed to help developers by providing pre-written code that they can use to enhance their applications, save time, and add more complex features without starting from scratch.
 ### Summary:
-*  A module is a single Python file.
-*  A package is a collection of modules in a directory with a `__init__.py` file.
+```python
+# "File = module, Folder = package, Collection = library"
+```
+*  A module is a single `.py` Python file you can `import`.
+```
+import csv → csv.py inside the standard library
+```
+*  A package is a folder/directory that contains a collection of modules with a `__init__.py` file.
+```
+import email → that’s a package with many submodules like email.mime, email.parser
+```
 *  A library is a collection of related functionality encapsulated in packages and modules, which can sometimes include software in other languages or even compiled binaries.
+```
+pip install requests → requests is a library made up of several modules and packages
+```
 * These concepts are fundamental in Python for code reuse, organization, and distribution. By understanding the differences, you can better organize your own projects and understand how to use external code effectively.
 
 ## Conclusion

@@ -236,7 +236,14 @@
         * Module Executable and Import
         * Custom Module Folder Executable and Import
         * Accessing Module from a Path
-* ### Python Libraries
+* ### [Python Libraries](./python-libraries/python_libraries.md)
+    * Types of Python Libraries
+    * Module vs Package vs Library
+    * Summary
+    * Conclusion
+    * Standard Python Library Modules
+        * [CSV Module](./python-libraries/csv/csv.md)
+        * [Datetime Module](./python-libraries/datetime/datetime.md)
 
 ***
 | &copy; TINITIATE.COM |
