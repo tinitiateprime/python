@@ -244,6 +244,12 @@
     * Standard Python Library Modules
         * [CSV Module](./python-libraries/csv/csv.md)
         * [Datetime Module](./python-libraries/datetime/datetime.md)
+        * [File IO](./python-libraries/fileio/fileio.md)
+        * [JSON Module](./python-libraries/json/json.md)
+        * [Iterators and Generators](./python-libraries/iterators_and_generators/iterators_and_generators.md)
+        * [Lambda](./python-libraries/lambda/lambda.md)
+        * [Advanced Function Features](./python-libraries/advanced_fuction_features/advanced_function_features.md)
+        * [Decorators](./python-libraries/decorators/decorators.md)
 
 ***
 | &copy; TINITIATE.COM |
