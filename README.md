@@ -246,10 +246,19 @@
         * [Datetime Module](./python-libraries/datetime/datetime.md)
         * [File IO](./python-libraries/fileio/fileio.md)
         * [JSON Module](./python-libraries/json/json.md)
-        * [Iterators and Generators](./python-libraries/iterators_and_generators/iterators_and_generators.md)
+        * [Iterators and Generators](./python-libraries/iterators-and-generators/iterators_and_generators.md)
         * [Lambda](./python-libraries/lambda/lambda.md)
-        * [Advanced Function Features](./python-libraries/advanced_fuction_features/advanced_function_features.md)
+        * [Advanced Function Features](./python-libraries/advanced-fuction-features/advanced_function_features.md)
         * [Decorators](./python-libraries/decorators/decorators.md)
+        * [Regular Expressions](./python-libraries/regular-expressions/regular_expressions.md)
+        * [Multithreading](./python-libraries/multithreading/multithreading.md)
+        * [XML](./python-libraries/xml/xml.md)
+        * [Config File](./python-libraries/config-file/config_file.md)
+        * [Pickle](./python-libraries/pickle/pickle.md)
+        * [Logging](./python-libraries/logging/logging.md)
+        * [Email](./python-libraries/email/email.md)
+        * [Argparse](./python-libraries/argparse/argparse.md)
+        * [Collections](./python-libraries/collections/collections.md)
 
 ***
 | &copy; TINITIATE.COM |
