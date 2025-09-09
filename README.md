@@ -259,6 +259,11 @@
         * [Email](./python-libraries/email/email.md)
         * [Argparse](./python-libraries/argparse/argparse.md)
         * [Collections](./python-libraries/collections/collections.md)
+        * [Pytest](./python-libraries/pytest/pytest.md)
+        * [Requests](./python-libraries/requests/requests.md)
+        * [Pandas](./python-libraries/pandas/pandas.md)
+        * [Pytz](./python-libraries/pytz/pytz.md)
+        * [JSONSchema](./python-libraries/jsonschema/jsonschema.md)
 
 ***
 | &copy; TINITIATE.COM |
