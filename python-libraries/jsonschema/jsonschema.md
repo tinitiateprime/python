@@ -18,15 +18,18 @@ python -m pip install jsonschema
 ```
 
 ## Schema
-* The schema includes the following:
-  - `schema`: This is the root element of a JSON Schema document. It contains definitions for all the properties and data types that are allowed in the JSON document that this schema describes. It may also include information about references and links.
+The json schema includes the following:
+* `schema`: This is the root element of a JSON Schema document. It contains definitions for all the properties and data types that are allowed in the JSON document that this schema describes. It may also include information about references and links.
 
-  - `type`: This element is used to specify the data type of a property or value in the JSON document. It can be a simple data type like `string`, `number`, or `boolean`, or a complex data type like `object` or `array`. 
-  - `properties`: This element is used to define the properties of an object in the JSON document. It contains one or more properties that specify the name and data type of each property in the object.
-  - `items`: This element is used to define the items in an array in the JSON document. It specifies the data type and properties of each item in the array. 
-  - `object` data type is used to define an object in a JSON document. 
-  - `required`: This element is used to specify which properties of an object are required. It contains an array of property names that must be present in the JSON document.
-  - `$ref`: This element is used to reference another part of the JSON Schema document, allowing you to reuse definitions and keep your schema organized and maintainable.
+* `type`: This element is used to specify the data type of a property or value in the JSON document. It can be a simple data type like `string`, `number`, or `boolean`, or a complex data type like `object` or `array`. 
+* `properties`: This element is used to define the properties of an object in the JSON document. It contains one or more properties that specify the name and data type of each property in the object.
+* `items`: This element is used to define the items in an array in the JSON document. It specifies the data type and properties of each item in the array. 
+* `object` data type is used to define an object in a JSON document. 
+* `required`: This element is used to specify which properties of an object are required. It contains an array of property names that must be present in the JSON document.
+* `$ref`: This element is used to reference another part of the JSON Schema document, allowing you to reuse definitions and keep your schema organized and maintainable.
+### Sample 'product' JSON schema 
+* Save as `schema.json`.
+* Change any value as per your requirement.
 ```json
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -152,7 +155,9 @@ python -m pip install jsonschema
     }
 }
 ```
-* Sample product json (Change any value as per your requirement)
+### Sample 'product' JSON 
+* Save as `product.json`.
+* Change any value as per your requirement.
 ```json
 {
   "product_id": 1001,
@@ -192,6 +197,7 @@ python -m pip install jsonschema
 ```
 
 ## JSON Schema Validation
+* Validating the 'product' JSON data against the 'product' JSON schema.
 ```python
 import json
 import jsonschema
@@ -220,7 +226,6 @@ try:
 except jsonschema.exceptions.ValidationError as e:
     print("JSON validation error:", e)
 ```
-
 
 ##### [Back To Contents](../../README.md)
 ***

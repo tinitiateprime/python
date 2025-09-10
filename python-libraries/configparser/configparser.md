@@ -5,7 +5,7 @@
 
 ##### [Back To Contents](../../README.md)
 
-# Config File
+# ConfigParser
 * Configuration files are usually plain text files that store settings and parameters for a program. 
 * These settings can include things like database connection strings, API keys, and other configuration parameters that are specific to a particular application or environment.
 * `configparser` is a built-in module in Python that provides a way to work with configuration files.

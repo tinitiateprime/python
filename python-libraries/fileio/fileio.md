@@ -106,6 +106,9 @@ File IO File Operations includes the following:
     * "w" WRITE Mode (overwrite the file)
     * "a" APPEND Mode (Appends to a file)
     * "r+" READ and WRITE Mode
+    * "x" Create a new file
+* The `with open()` statement is a Python expression used to work with files.
+* It provides a way to ensure that a file is closed when the block inside the `with` statement is exited, regardless of how the block is exited.
 ```python
 import os
 
@@ -185,6 +188,20 @@ append_file.writelines(tuple_1)
 dictionary_1 = {'APPLE':'FRUIT', 'POTATO':'ROOT', 'OKRA':'VEGETABLE'}
 append_file.writelines(dictionary_1)
 append_file.close()
+```
+## Create a new file
+```python
+with open('C:/tinitiate/newfile.txt', 'x') as f:
+    f.write('Welcome to Tinitiate!\n')
+```
+### Read and Write to file
+```python
+with open('C:/tinitiate/newfile.txt', 'r+') as f:
+    # Read the file
+    data = f.read()
+    
+    # Write to the file
+    f.write('Hello, World!')
 ```
 ### Rename file or folder
 ```python

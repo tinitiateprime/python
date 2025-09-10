@@ -235,6 +235,7 @@
         * Custom module folder with `__all__` in `__init__.py` file
         * Module Executable and Import
         * Custom Module Folder Executable and Import
+        * `main()` Function
         * Accessing Module from a Path
 * ### [Python Libraries](./python-libraries/python_libraries.md)
     * Types of Python Libraries
@@ -253,7 +254,7 @@
         * [Regular Expressions](./python-libraries/regular-expressions/regular_expressions.md)
         * [Multithreading](./python-libraries/multithreading/multithreading.md)
         * [XML](./python-libraries/xml/xml.md)
-        * [Config File](./python-libraries/config-file/config_file.md)
+        * [ConfigParser](./python-libraries/configparser/configparser.md)
         * [Pickle](./python-libraries/pickle/pickle.md)
         * [Logging](./python-libraries/logging/logging.md)
         * [Email](./python-libraries/email/email.md)
@@ -264,6 +265,10 @@
         * [Pandas](./python-libraries/pandas/pandas.md)
         * [Pytz](./python-libraries/pytz/pytz.md)
         * [JSONSchema](./python-libraries/jsonschema/jsonschema.md)
+        * [CSVValidator](./python-libraries/csvvalidator/csvvalidator.md)
+        * [Avro](./python-libraries/avro/avro.md)
+        * [XMLSchema](./python-libraries/xmlschema/xmlschema.md)
+        * [`input()`](./python-libraries/input/input.md)
 
 ***
 | &copy; TINITIATE.COM |
