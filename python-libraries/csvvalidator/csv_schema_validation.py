@@ -17,7 +17,7 @@ from csvvalidator import CSVValidator, enumeration, number_range_inclusive, date
 # ---------- logging ----------
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-handler = logging.FileHandler('validation.log', encoding='utf-8')
+handler = logging.FileHandler('C:/tinitiate/validation.log', encoding='utf-8')
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)

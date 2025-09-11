@@ -242,7 +242,7 @@
     * Module vs Package vs Library
     * Summary
     * Conclusion
-    * Standard Python Library Modules
+    * Standard & Third-Party Python Libraries/Modules
         * [CSV Module](./python-libraries/csv/csv.md)
         * [Datetime Module](./python-libraries/datetime/datetime.md)
         * [File IO](./python-libraries/fileio/fileio.md)
@@ -253,22 +253,29 @@
         * [Decorators](./python-libraries/decorators/decorators.md)
         * [Regular Expressions](./python-libraries/regular-expressions/regular_expressions.md)
         * [Multithreading](./python-libraries/multithreading/multithreading.md)
-        * [XML](./python-libraries/xml/xml.md)
         * [ConfigParser](./python-libraries/configparser/configparser.md)
         * [Pickle](./python-libraries/pickle/pickle.md)
         * [Logging](./python-libraries/logging/logging.md)
-        * [Email](./python-libraries/email/email.md)
         * [Argparse](./python-libraries/argparse/argparse.md)
         * [Collections](./python-libraries/collections/collections.md)
-        * [Pytest](./python-libraries/pytest/pytest.md)
-        * [Requests](./python-libraries/requests/requests.md)
-        * [Pandas](./python-libraries/pandas/pandas.md)
-        * [Pytz](./python-libraries/pytz/pytz.md)
         * [JSONSchema](./python-libraries/jsonschema/jsonschema.md)
         * [CSVValidator](./python-libraries/csvvalidator/csvvalidator.md)
-        * [Avro](./python-libraries/avro/avro.md)
+        * [XML](./python-libraries/xml/xml.md)
         * [XMLSchema](./python-libraries/xmlschema/xmlschema.md)
+        * [Avro](./python-libraries/avro/avro.md)
+        * [Requests](./python-libraries/requests/requests.md)
+        * [Email](./python-libraries/email/email.md)
+        * [Pytz](./python-libraries/pytz/pytz.md)
+        * [Pytest](./python-libraries/pytest/pytest.md)
+        * [Pandas](./python-libraries/pandas/pandas.md)
         * [`input()`](./python-libraries/input/input.md)
+        * [`pyodbc`](./python-libraries/pyodbc/pyodbc.md)
+        * [`cx_oracle`](./python-libraries/cx_oracle/cx_oracle.md)
+        * [`pymysql`](./python-libraries/pymysql/pymysql.md)
+        * [`psycopg2`](./python-libraries/psycopg2/psycopg2.md)
+        * [`pymssql`](./python-libraries/pymssql/pymssql.md)
+        * [MySQL Connection Pool](./python-libraries/mysql-connection-pool/mysql_connection_pool.md)
+        * [Virtual ENV](./python-libraries/virtual-env/virtual_env.md)
 
 ***
 | &copy; TINITIATE.COM |

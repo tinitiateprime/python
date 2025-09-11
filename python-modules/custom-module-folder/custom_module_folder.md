@@ -347,6 +347,7 @@ print(x, "raised to the power of", n, "is", result2)
 ```python
 import sys
 sys.path.append('/path/to/module-folder')
+from module_name import module_function
 ```
 
 ##### [Back To Contents](../../README.md)
